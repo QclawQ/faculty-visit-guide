@@ -17,7 +17,7 @@
     "paper": "Finding High Posterior Density Phylogenies by Systematically Extending a Directed Acyclic Graph · Algorithms for Molecular Biology 2025",
     "paperUrl": "https://doi.org/10.1186/s13015-025-00273-x",
     "email": "chengzhang@math.pku.edu.cn",
-    "address": "本人主页：20号楼315；访问时间需预约。",
+    "address": "北京大学 20 号楼 315 室",
     "official": "https://www.stat-center.pku.edu.cn/zxry/zxjy/zc/1201854tjkxzx1314356.htm",
     "lab": "https://zcrabbit.github.io/",
     "ask": "想请教如何给 flow traceback 定义可检验的树分布，以及怎样与变分贝叶斯方法在同一数据和计算预算下比较。",
@@ -27,7 +27,24 @@
     "scholarSource": "",
     "scholarEvidence": "已检查官方/实验室主页并检索，暂未确认独立个人主页；不表示本人没有主页。",
     "scholarStatus": "个人主页待核实",
-    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Cheng+Zhang+Peking+University&hl=en"
+    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Cheng+Zhang+Peking+University&hl=en",
+    "officeStatus": "办公室已核对",
+    "officeNote": "数学学院教师名录与本人主页一致；此处是统计学／系统发育方向的张成。",
+    "officeSources": [
+      {
+        "label": "数学学院名录",
+        "url": "https://math.pku.edu.cn/jsdw/js_20180628175159671361/z_20180628175159671361/103427.htm"
+      },
+      {
+        "label": "本人主页",
+        "url": "https://zcrabbit.github.io/"
+      }
+    ],
+    "officeChecked": "2026-09-15",
+    "kindCode": "dry",
+    "kindLabel": "干 Dry",
+    "kindSource": "https://www.stat-center.pku.edu.cn/zxry/zxjy/zc/1201854tjkxzx1314356.htm",
+    "kindNote": "本人2025年论文包含将有向无环图系统扩展以寻找高后验密度系统树，与“从 DAG 得到树”的问题特别贴近；另有变分推断和标准化流工作。"
   },
   {
     "id": "zhang-chao",
@@ -47,7 +64,7 @@
     "paper": "CASTER: Direct species tree inference from whole-genome alignments · Science 2025",
     "paperUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12038793/",
     "email": "chaozhang@pku.edu.cn",
-    "address": "王克桢楼；官方未列房间。",
+    "address": "北京大学王克桢楼；房间号待确认",
     "official": "https://www.aais.pku.edu.cn/info/1410/17931.htm",
     "lab": "https://asterlab-web.github.io/",
     "ask": "您的建树和比对纠错工作让我想到：如何测试不显式计算 MSA 的生成路径，在含 indel 与基因复制的数据中是否保留真实进化信号？",
@@ -57,7 +74,20 @@
     "scholarSource": "https://asterlab-web.github.io/people/",
     "scholarEvidence": "实验室主页直接链接",
     "scholarStatus": "已核对主页",
-    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Chao+Zhang+Peking+University&hl=en"
+    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Chao+Zhang+Peking+University&hl=en",
+    "officeStatus": "仅核实楼栋",
+    "officeNote": "交叉学院个人页明确楼栋，但没有房间号。",
+    "officeSources": [
+      {
+        "label": "交叉学院个人页",
+        "url": "https://www.aais.pku.edu.cn/info/1410/17931.htm"
+      }
+    ],
+    "officeChecked": "2026-09-15",
+    "kindCode": "dry",
+    "kindLabel": "干 Dry",
+    "kindSource": "https://www.aais.pku.edu.cn/info/1410/17931.htm",
+    "kindNote": "官方主页列出 ASTRAL-IV、ASTRAL-Pro、wASTRAL、CASTER、WASTER 与 TAPER，覆盖大规模建树和比对纠错。"
   },
   {
     "id": "wang-yangming",
@@ -77,7 +107,7 @@
     "paper": "POND-seq · Molecular Cell 2026",
     "paperUrl": "https://future.pku.edu.cn/kxyj/kydt/fe4bd31f8ebb439cb4e24157a5f477c4.htm",
     "email": "yangming.wang@pku.edu.cn",
-    "address": "综合科研2号楼419（官方公开办公室）。",
+    "address": "北京大学综合科研 2 号楼；419 / 420 室存在官方来源冲突",
     "official": "https://www.aais.pku.edu.cn/info/1434/2818.htm",
     "lab": "https://wanglabpku.github.io/",
     "ask": "想讨论怎样把生成的 let-7 变体放回完整 RNA 背景，并用活性或靶向读出区分“序列相似”与“功能保留”。",
@@ -87,7 +117,24 @@
     "scholarSource": "",
     "scholarEvidence": "已检查官方/实验室主页并检索，暂未确认独立个人主页；不表示本人没有主页。",
     "scholarStatus": "个人主页待核实",
-    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Yangming+Wang+Peking+University&hl=en"
+    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Yangming+Wang+Peking+University&hl=en",
+    "officeStatus": "房间号有冲突",
+    "officeNote": "交叉学院列 419；未来技术学院英文旧栏目列 420。尚无充分证据判断现用房间，请邮件确认。",
+    "officeSources": [
+      {
+        "label": "交叉学院：419",
+        "url": "https://www.aais.pku.edu.cn/info/1434/2818.htm"
+      },
+      {
+        "label": "未来技术学院旧栏目：420",
+        "url": "https://future.pku.edu.cn/en/Old_Column/js/Faculty/InstituteMedicine/15ef9f4444e141cda5673b20d1e2776c.htm"
+      }
+    ],
+    "officeChecked": "2026-09-15",
+    "kindCode": "wet",
+    "kindLabel": "湿 Wet",
+    "kindSource": "https://www.aais.pku.edu.cn/info/1434/2818.htm",
+    "kindNote": "2014/2015 年 let-7 与干细胞自我更新工作；2019 年 miRNA 激活 CRISPR 传感器；2026 年 POND-seq 可追踪活细胞 RNA 并捕获 miRNA 及相关靶 RNA。"
   },
   {
     "id": "du-peng",
@@ -107,7 +154,7 @@
     "paper": "Global miRNA dosage control of embryonic germ layer specification · Nature 2021",
     "paperUrl": "https://www.aais.pku.edu.cn/info/1415/2769.htm",
     "email": "pengdu@pku.edu.cn",
-    "address": "吕志和楼134（官方公开办公室）。",
+    "address": "北京大学吕志和楼 134 室",
     "official": "https://www.aais.pku.edu.cn/info/1415/2769.htm",
     "lab": "https://dulab.pku.edu.cn/",
     "ask": "我们的生成模型目前在 let-7 的10 nt片段上验证。想请教，扩展到完整 miRNA 后，哪些加工、表达或靶基因读出最能判断候选是否有功能？",
@@ -117,7 +164,20 @@
     "scholarSource": "https://dulab.pku.edu.cn/Publications1/By_year.htm",
     "scholarEvidence": "实验室论文页直接链接",
     "scholarStatus": "已核对主页",
-    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Peng+Du+Peking+University&hl=en"
+    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Peng+Du+Peking+University&hl=en",
+    "officeStatus": "办公室已核对",
+    "officeNote": "交叉学院个人页明确标注办公室。",
+    "officeSources": [
+      {
+        "label": "交叉学院个人页",
+        "url": "https://www.aais.pku.edu.cn/info/1415/2769.htm"
+      }
+    ],
+    "officeChecked": "2026-09-15",
+    "kindCode": "wet",
+    "kindLabel": "湿 Wet",
+    "kindSource": "https://www.aais.pku.edu.cn/info/1415/2769.htm",
+    "kindNote": "研究 RNA 调控和干细胞命运；Nature 2021 工作关注全局 miRNA 剂量与胚层分化，Cell 2022 关注恢复 miRNA 缺失。"
   },
   {
     "id": "lu-jian",
@@ -137,7 +197,7 @@
     "paper": "近缘果蝇环境适应的可重复演化研究 · 2026",
     "paperUrl": "https://news.pku.edu.cn/jxky/2b58b2e763634da4b195288459eded12.htm",
     "email": "luj@pku.edu.cn",
-    "address": "王克桢楼313（交叉学院公开办公室）。",
+    "address": "北京大学王克桢楼 313 室",
     "official": "https://www.aais.pku.edu.cn/info/1423/2793.htm",
     "lab": "https://www.bio.pku.edu.cn/homes/Index/news_cont_jl/16/45.html",
     "ask": "想请教如何将生成路径中的共享中间态，与 RNA 调控元件的真实进化约束区分开，并选择一个可做功能检验的序列家族。",
@@ -147,7 +207,20 @@
     "scholarSource": "",
     "scholarEvidence": "已检查官方/实验室主页并检索，暂未确认独立个人主页；不表示本人没有主页。",
     "scholarStatus": "个人主页待核实",
-    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Jian+Lu+Peking+University&hl=en"
+    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Jian+Lu+Peking+University&hl=en",
+    "officeStatus": "办公室已核对",
+    "officeNote": "交叉学院个人页明确标注办公室。",
+    "officeSources": [
+      {
+        "label": "交叉学院个人页",
+        "url": "https://www.aais.pku.edu.cn/info/1423/2793.htm"
+      }
+    ],
+    "officeChecked": "2026-09-15",
+    "kindCode": "mixed",
+    "kindLabel": "综合 Dry + Wet",
+    "kindSource": "https://www.aais.pku.edu.cn/info/1423/2793.htm",
+    "kindNote": "现行学院主页明确提出 RNA调控—分子进化—计算设计，结合果蝇、体外翻译、多组学与深度学习；2026年继续发表果蝇适应性演化研究。"
   },
   {
     "id": "lin-yihan",
@@ -167,7 +240,7 @@
     "paper": "Navigating high-order protein fitness landscapes via deep learning on directed evolution trajectories · PNAS 2026",
     "paperUrl": "https://doi.org/10.1073/pnas.2520561123",
     "email": "yihan.lin@pku.edu.cn",
-    "address": "吕志和楼229（官网通讯地址，预约时确认会面房间）。",
+    "address": "北京大学吕志和楼北侧 229 室",
     "official": "https://cqb.pku.edu.cn/info/1002/1818.htm",
     "lab": "https://linlab-pku.com/",
     "ask": "看到您用进化轨迹学习适应度景观的工作，我想讨论 GFlowNet 能否帮助选出兼顾功能与多样性的候选；也希望交流从 GRN 推断到基因线路生成的接口。",
@@ -177,7 +250,24 @@
     "scholarSource": "",
     "scholarEvidence": "已检查官方/实验室主页并检索，暂未确认独立个人主页；不表示本人没有主页。",
     "scholarStatus": "个人主页待核实",
-    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Yihan+Lin+Peking+University&hl=en"
+    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Yihan+Lin+Peking+University&hl=en",
+    "officeStatus": "本人联系房间已核对",
+    "officeNote": "CQB 个人页通讯地址与 2026 年暑期表中林一瀚本人联系房间一致。",
+    "officeSources": [
+      {
+        "label": "CQB 个人页",
+        "url": "https://cqb.pku.edu.cn/info/1002/1818.htm"
+      },
+      {
+        "label": "2026 年暑期房间表",
+        "url": "https://cqb.pku.edu.cn/info/1064/6153.htm"
+      }
+    ],
+    "officeChecked": "2026-09-15",
+    "kindCode": "mixed",
+    "kindLabel": "综合 Dry + Wet",
+    "kindSource": "https://cqb.pku.edu.cn/info/1002/1818.htm",
+    "kindNote": "2026年 PNAS 研究用定向进化轨迹学习高阶蛋白适应度景观；2023年 Genome Research 研究 GRN 推断；具备活细胞时序成像与合成器件平台。"
   },
   {
     "id": "gao-ge",
@@ -197,7 +287,7 @@
     "paper": "Global miRNA dosage control of embryonic germ layer specification · Nature 2021",
     "paperUrl": "https://www.aais.pku.edu.cn/info/1415/2769.htm",
     "email": "gaog@pku.edu.cn",
-    "address": "综合科研2号楼501（BIOPIC 官方办公室）。",
+    "address": "北京大学综合科研 2 号楼 501 室",
     "official": "https://biopic.pku.edu.cn/zxpi/107bdswyxqycxzxgb510945.htm",
     "lab": "http://www.gao-lab.org/",
     "ask": "想请教如何构建跨物种非编码 RNA 生成基准，避免近同源序列和保守性权重让测试结果过于乐观，并建立功能层面的读出。",
@@ -207,7 +297,20 @@
     "scholarSource": "",
     "scholarEvidence": "已检查官方/实验室主页并检索，暂未确认独立个人主页；不表示本人没有主页。",
     "scholarStatus": "个人主页待核实",
-    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Ge+Gao+Peking+University&hl=en"
+    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Ge+Gao+Peking+University&hl=en",
+    "officeStatus": "办公室已核对",
+    "officeNote": "BIOPIC 个人页明确标注办公地点。",
+    "officeSources": [
+      {
+        "label": "BIOPIC 个人页",
+        "url": "https://biopic.pku.edu.cn/zxpi/107bdswyxqycxzxgb510945.htm"
+      }
+    ],
+    "officeChecked": "2026-09-15",
+    "kindCode": "mixed",
+    "kindLabel": "综合 Dry + Wet",
+    "kindSource": "https://biopic.pku.edu.cn/zxpi/107bdswyxqycxzxgb510945.htm",
+    "kindNote": "官方主页描述整合高通量遗传与功能基因组数据，研究表达调控因子的功能及演化；也是杜鹏 miRNA 剂量工作作者之一。"
   },
   {
     "id": "deng-minghua",
@@ -226,7 +329,7 @@
     "paper": "Improving Tree Probability Estimation with Stochastic Optimization and Variance Reduction · 2024",
     "paperUrl": "https://arxiv.org/abs/2409.05282",
     "email": "dengmh@pku.edu.cn",
-    "address": "数学科学学院／CQB；个人房间本轮未核实。",
+    "address": "北京大学智华楼 407 室",
     "official": "https://cqb.pku.edu.cn/info/1002/1826.htm",
     "lab": "https://cqb.pku.edu.cn/info/1002/1826.htm",
     "ask": "想请教如何设计既评价目标覆盖率、又检验树结构可靠性的实验，以及如何控制奖励函数和训练目标同时变化造成的混杂。",
@@ -236,7 +339,20 @@
     "scholarSource": "https://www.alphaxiv.org/@minghua-deng",
     "scholarEvidence": "作者资料页，姓名及生物信息论文匹配",
     "scholarStatus": "已核对主页",
-    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Minghua+Deng+Peking+University&hl=en"
+    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Minghua+Deng+Peking+University&hl=en",
+    "officeStatus": "办公室已核对",
+    "officeNote": "数学学院个人页列本人房间。CQB 的老化学楼东配楼 303 是课题组联系地址，不替代个人办公室。",
+    "officeSources": [
+      {
+        "label": "数学学院个人页",
+        "url": "https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/d_20180628175159671361/69896.htm"
+      }
+    ],
+    "officeChecked": "2026-09-15",
+    "kindCode": "dry",
+    "kindLabel": "干 Dry",
+    "kindSource": "https://cqb.pku.edu.cn/info/1002/1826.htm",
+    "kindNote": "2024年树概率估计工作包含邓明华、张成；2022年与林一瀚合作用时间序列转录组推断转录因子活性。"
   },
   {
     "id": "qian-long",
@@ -256,7 +372,7 @@
     "paper": "Discovery of Diverse and High-quality mRNA Capping Enzymes through a Language Model-enabled Platform · Science Advances 2025",
     "paperUrl": "https://www.aais.pku.edu.cn/info/1644/3821.htm",
     "email": "long.qian@pku.edu.cn",
-    "address": "定量生物学中心；未核实个人办公室。",
+    "address": "北京大学定量生物学中心；楼栋与个人房间待确认",
     "official": "https://www.aais.pku.edu.cn/info/1644/3821.htm",
     "lab": "https://www.bdainformatics.org",
     "ask": "想以您已建立的酶发现任务为例，讨论如何用 GFlowNet 在固定实验预算下产生功能好、序列又多样的候选。",
@@ -266,7 +382,24 @@
     "scholarSource": "",
     "scholarEvidence": "已检查官方/实验室主页并检索，暂未确认独立个人主页；不表示本人没有主页。",
     "scholarStatus": "个人主页待核实",
-    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Long+Qian+Peking+University&hl=en"
+    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Long+Qian+Peking+University&hl=en",
+    "officeStatus": "未核实个人办公室",
+    "officeNote": "已查交叉学院个人页和课题组网站，未找到可确认的个人办公室；不采用学院网页底部的行政地址。",
+    "officeSources": [
+      {
+        "label": "交叉学院个人页",
+        "url": "https://www.aais.pku.edu.cn/info/1644/3821.htm"
+      },
+      {
+        "label": "课题组网站",
+        "url": "https://www.bdainformatics.org/"
+      }
+    ],
+    "officeChecked": "2026-09-15",
+    "kindCode": "mixed",
+    "kindLabel": "综合 Dry + Wet",
+    "kindSource": "https://www.aais.pku.edu.cn/info/1644/3821.htm",
+    "kindNote": "官方论文列表含2025年语言模型辅助 mRNA 加帽酶发现、2023年多基因表达比例编程，以及进化理论工作。"
   },
   {
     "id": "lai-luhua",
@@ -286,7 +419,7 @@
     "paper": "GeoEvoBuilder · 功能蛋白设计研究 · 2025",
     "paperUrl": "https://cqb.pku.edu.cn/info/1101/3208.htm",
     "email": "lhlai@pku.edu.cn",
-    "address": "北大化学学院；另有成都团队，需确认北京会面地点。",
+    "address": "北京大学化学楼 A518 室",
     "official": "https://www.oir.pku.edu.cn/cqb/info/1002/1830.htm",
     "lab": "http://mdl.ipc.pku.edu.cn",
     "ask": "想请教在功能蛋白设计中，多样性采样在何种实验预算和多目标约束下最有价值，并选择一个可以比较的酶家族。",
@@ -296,7 +429,20 @@
     "scholarSource": "https://adscientificindex.com/scientist/luhua-lai/703957/",
     "scholarEvidence": "作者资料页，北大单位及蛋白设计方向匹配",
     "scholarStatus": "已核对主页",
-    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Luhua+Lai+Peking+University&hl=en"
+    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Luhua+Lai+Peking+University&hl=en",
+    "officeStatus": "办公室已核对",
+    "officeNote": "化学学院办公电话簿将 A518 标注在来鲁华本人名下。",
+    "officeSources": [
+      {
+        "label": "化学学院办公电话簿",
+        "url": "https://www.chem.pku.edu.cn/bgfwdh/bgdh/index.htm"
+      }
+    ],
+    "officeChecked": "2026-09-15",
+    "kindCode": "mixed",
+    "kindLabel": "综合 Dry + Wet",
+    "kindSource": "https://www.oir.pku.edu.cn/cqb/info/1002/1830.htm",
+    "kindNote": "2025年 GeoEvoBuilder 结合结构与进化信息改进功能蛋白设计，并以酶活、结构和动力学进行验证。"
   },
   {
     "id": "song-chen",
@@ -316,7 +462,7 @@
     "paper": "Painting Peptides with Antimicrobial Potency Through Deep Reinforcement Learning · Advanced Science 2025",
     "paperUrl": "https://cqb.pku.edu.cn/info/1002/1811.htm",
     "email": "c.song@pku.edu.cn",
-    "address": "CQB；个人办公室未核实。",
+    "address": "北京大学吕志和楼 234 室",
     "official": "https://cqb.pku.edu.cn/info/1002/1811.htm",
     "lab": "https://cqb.pku.edu.cn/songgroup/",
     "ask": "想围绕强化学习肽设计任务，比较单一高分优化和 GFlowNet 多模态采样，重点检验多样性是否带来更多可用候选。",
@@ -326,7 +472,24 @@
     "scholarSource": "",
     "scholarEvidence": "已检查官方/实验室主页并检索，暂未确认独立个人主页；不表示本人没有主页。",
     "scholarStatus": "个人主页待核实",
-    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Chen+Song+Peking+University&hl=en"
+    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Chen+Song+Peking+University&hl=en",
+    "officeStatus": "办公室已核对",
+    "officeNote": "交叉学院个人页明确办公室为 234；2026 年暑期表中的北侧 232 是联合课题组联系人的房间。",
+    "officeSources": [
+      {
+        "label": "交叉学院个人页",
+        "url": "https://www.aais.pku.edu.cn/info/1403/2620.htm"
+      },
+      {
+        "label": "课题组联系地址说明",
+        "url": "https://cqb.pku.edu.cn/info/1064/6153.htm"
+      }
+    ],
+    "officeChecked": "2026-09-15",
+    "kindCode": "dry",
+    "kindLabel": "干 Dry",
+    "kindSource": "https://cqb.pku.edu.cn/info/1002/1811.htm",
+    "kindNote": "官网列2025年深度强化学习肽设计，以及2026年 MemConverter 蛋白定位重编程。"
   },
   {
     "id": "zhou-peijie",
@@ -346,7 +509,7 @@
     "paper": "Joint Velocity-Growth Flow Matching for Single-Cell Dynamics Modeling · NeurIPS 2025",
     "paperUrl": "https://cqb.pku.edu.cn/info/1002/2869.htm",
     "email": "pjzhou@pku.edu.cn",
-    "address": "北大国际机器学习研究中心／CQB；个人房间未核实。",
+    "address": "北京大学国际机器学习研究中心／定量生物学中心；个人房间待确认",
     "official": "https://cqb.pku.edu.cn/info/1002/2869.htm",
     "lab": "https://cliffzhou92.github.io/",
     "ask": "我也在做 conditional flow matching 预测细胞扰动响应，想讨论如何区分“跨时间轨迹重建”与“干预后的反事实预测”，并把 GRN 先验加入生成模型。",
@@ -356,7 +519,24 @@
     "scholarSource": "https://cliffzhou92.github.io/",
     "scholarEvidence": "本人主页直接链接",
     "scholarStatus": "已核对主页",
-    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Peijie+Zhou+Peking+University&hl=en"
+    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Peijie+Zhou+Peking+University&hl=en",
+    "officeStatus": "未核实个人办公室",
+    "officeNote": "本人主页及 CMLR 教师页未列办公室；中心公共地址不能作为本人房间。",
+    "officeSources": [
+      {
+        "label": "本人主页",
+        "url": "https://cliffzhou92.github.io/"
+      },
+      {
+        "label": "CMLR 教师页",
+        "url": "https://cmlr.pku.edu.cn/People/Faculty/7a19505c532b410bbcdc788d40377c8c.htm"
+      }
+    ],
+    "officeChecked": "2026-09-15",
+    "kindCode": "dry",
+    "kindLabel": "干 Dry",
+    "kindSource": "https://cqb.pku.edu.cn/info/1002/2869.htm",
+    "kindNote": "官网2025–2026论文直接覆盖 velocity-growth flow matching、动态非平衡最优传输、单细胞空间转移与轨迹重建。"
   },
   {
     "id": "zhang-lei",
@@ -376,7 +556,7 @@
     "paper": "Efficient co-programming of intercellular mechanics and signaling for complex developmental patterns · 2026",
     "paperUrl": "https://cqb.pku.edu.cn/info/1065/5873.htm",
     "email": "zhangl@math.pku.edu.cn",
-    "address": "北京国际数学研究中心；会面房间需确认。",
+    "address": "北京大学镜春园 78 号，房间编号 78409",
     "official": "https://cqb.pku.edu.cn/info/1002/1802.htm",
     "lab": "http://bicmr.pku.edu.cn/~zhanglei",
     "ask": "想将生成出的分节时钟网络按动力学机制分类，检验相同斑图背后不同拓扑的鲁棒性；也想请教如何从简化网络走向多细胞力学模型。",
@@ -386,7 +566,24 @@
     "scholarSource": "",
     "scholarEvidence": "已检查官方/实验室主页并检索，暂未确认独立个人主页；不表示本人没有主页。",
     "scholarStatus": "个人主页待核实",
-    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Lei+Zhang+Peking+University&hl=en"
+    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Lei+Zhang+Peking+University&hl=en",
+    "officeStatus": "办公室已核对",
+    "officeNote": "数学学院名录写作“镜春园78号78409”，BICMR 名录列“办公室78409”；保留官方编号。",
+    "officeSources": [
+      {
+        "label": "数学学院名录",
+        "url": "https://math.pku.edu.cn/jsdw/js_20180628175159671361/z_20180628175159671361/index.htm"
+      },
+      {
+        "label": "BICMR 教师名录",
+        "url": "https://bicmr.pku.edu.cn/cn/content/lists/11_5.html"
+      }
+    ],
+    "officeChecked": "2026-09-15",
+    "kindCode": "dry",
+    "kindLabel": "干 Dry",
+    "kindSource": "https://cqb.pku.edu.cn/info/1002/1802.htm",
+    "kindNote": "2026年与汤超合作建模线虫发育的力学—信号耦合；已有网络适应与噪声抑制设计原则研究。"
   },
   {
     "id": "tang-chao",
@@ -406,7 +603,7 @@
     "paper": "Efficient co-programming of intercellular mechanics and signaling for complex developmental patterns · 2026",
     "paperUrl": "https://doi.org/10.1016/j.xcrp.2026.103344",
     "email": "tangc@pku.edu.cn",
-    "address": "本轮补查发现西湖大学现有 Tang Lab（杭州云谷校区），北京会面安排需直接邮件确认。",
+    "address": "北京个人办公室待确认；北大课题组联系人在吕志和楼南侧 210",
     "official": "https://cqb.pku.edu.cn/info/1002/1831.htm",
     "lab": "https://cqb.pku.edu.cn/tanglab",
     "ask": "我们的 GFlowNet 能产生多种实现同一分节斑图的网络。想请教如何证明它们揭示新的功能拓扑或鲁棒性原则，而不仅是新的搜索方法。",
@@ -418,7 +615,24 @@
     "scholarStatus": "已核对主页",
     "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Chao+Tang+Peking+University&hl=en",
     "affiliationNote": "西湖大学现有研究团队；北大关联参考",
-    "affiliationSource": "https://tangc.lab.westlake.edu.cn/people.htm"
+    "affiliationSource": "https://tangc.lab.westlake.edu.cn/people.htm",
+    "officeStatus": "课题组联系地址",
+    "officeNote": "2026 年暑期表将 210 列给汤超／李志远组联系人，不能认定为汤超办公室；另有西湖大学现团队，需确认北京会面安排。",
+    "officeSources": [
+      {
+        "label": "北大 2026 年暑期房间表",
+        "url": "https://cqb.pku.edu.cn/info/1064/6153.htm"
+      },
+      {
+        "label": "西湖大学现团队",
+        "url": "https://tangc.lab.westlake.edu.cn/people.htm"
+      }
+    ],
+    "officeChecked": "2026-09-15",
+    "kindCode": "mixed",
+    "kindLabel": "综合 Dry + Wet",
+    "kindSource": "https://cqb.pku.edu.cn/info/1002/1831.htm",
+    "kindNote": "经典工作研究能实现适应功能的网络拓扑；2026年与张磊联合实验和模型研究线虫胚胎发育。"
   },
   {
     "id": "luo-chunxiong",
@@ -438,7 +652,7 @@
     "paper": "Independent control of amplitude and period in a synthetic oscillator circuit with modified repressilator · Communications Biology 2022",
     "paperUrl": "https://cqb.pku.edu.cn/info/1002/1820.htm",
     "email": "pkuluocx@pku.edu.cn",
-    "address": "物理大楼中308；另列北452/454及综合科研楼多处实验房间，预约确认。",
+    "address": "北京大学物理大楼中 308 室（个人页所列办公室）",
     "official": "https://cqb.pku.edu.cn/info/1002/1820.htm",
     "lab": "https://cqb.pku.edu.cn/info/1002/1820.htm",
     "ask": "想从生成网络中挑选机制不同但波形相近的振荡器，请教如何用现有微流控和时序成像平台测量周期、振幅及对环境变化的鲁棒性。",
@@ -448,7 +662,24 @@
     "scholarSource": "",
     "scholarEvidence": "已检查官方/实验室主页并检索，暂未确认独立个人主页；不表示本人没有主页。",
     "scholarStatus": "个人主页待核实",
-    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Chunxiong+Luo+Peking+University&hl=en"
+    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Chunxiong+Luo+Peking+University&hl=en",
+    "officeStatus": "办公室有来源，另有新实验室",
+    "officeNote": "CQB 个人页列中 308；2026 年暑期表另列新奥工学大楼 4119 东为罗春雄实验室／微加工平台。预约时明确在哪栋楼会面。",
+    "officeSources": [
+      {
+        "label": "CQB 办公地址",
+        "url": "https://cqb.pku.edu.cn/info/1002/1820.htm"
+      },
+      {
+        "label": "2026 年新奥实验室房间表",
+        "url": "https://cqb.pku.edu.cn/info/1064/6153.htm"
+      }
+    ],
+    "officeChecked": "2026-09-15",
+    "kindCode": "mixed",
+    "kindLabel": "综合 Dry + Wet",
+    "kindSource": "https://cqb.pku.edu.cn/info/1002/1820.htm",
+    "kindNote": "官方列表含2022年合成振荡回路独立调节振幅与周期，以及2021年微流控支持合成基因线路的综述。"
   },
   {
     "id": "ouyang-qi",
@@ -468,7 +699,7 @@
     "paper": "合成振荡器振幅与周期独立控制 · Communications Biology 2022",
     "paperUrl": "https://cqb.pku.edu.cn/info/1002/1820.htm",
     "email": "qi@pku.edu.cn",
-    "address": "物理学院；未核实个人办公室，不使用报告厅地址。",
+    "address": "个人办公室待确认；欧阳颀／李方廷组联系人在老化学楼东配楼 301-4",
     "official": "https://www.phy.pku.edu.cn/info/1009/4876.htm",
     "lab": "https://icmp.pku.edu.cn/szdw/zzry.htm",
     "ask": "想请教如何用分岔与非线性动力学来区分生成回路的机制，并设计对外部信号变化敏感的验证实验。",
@@ -478,7 +709,24 @@
     "scholarSource": "",
     "scholarEvidence": "已检查官方/实验室主页并检索，暂未确认独立个人主页；不表示本人没有主页。",
     "scholarStatus": "个人主页待核实",
-    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Qi+Ouyang+Peking+University&hl=en"
+    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Qi+Ouyang+Peking+University&hl=en",
+    "officeStatus": "课题组联系地址",
+    "officeNote": "2026 年暑期表列的是课题组联系人房间，非欧阳颀个人办公室；物理学院个人页未提供可核实的房间。",
+    "officeSources": [
+      {
+        "label": "2026 年暑期课题组地址",
+        "url": "https://cqb.pku.edu.cn/info/1064/6153.htm"
+      },
+      {
+        "label": "物理学院个人页",
+        "url": "https://www.phy.pku.edu.cn/info/1009/4876.htm"
+      }
+    ],
+    "officeChecked": "2026-09-15",
+    "kindCode": "mixed",
+    "kindLabel": "综合 Dry + Wet",
+    "kindSource": "https://www.phy.pku.edu.cn/info/1009/4876.htm",
+    "kindNote": "官网描述图灵斑图、果蝇体节极性网络、合成生物开关；也是合成振荡器研究合作者。"
   },
   {
     "id": "han-ming",
@@ -498,7 +746,7 @@
     "paper": "Machine learning active-nematic hydrodynamics · PNAS 2021",
     "paperUrl": "https://cqb.pku.edu.cn/info/1002/2541.htm",
     "email": "hanmingcr@gmail.com",
-    "address": "CQB；未公开个人房间。",
+    "address": "北京大学新奥工学大楼 4114（韩铭课题组）；个人办公室待确认",
     "official": "https://cqb.pku.edu.cn/info/1002/2541.htm",
     "lab": "https://cqb.pku.edu.cn/info/1002/2541.htm",
     "ask": "能否让 GFlowNet 生成的网络不仅产生目标斑图，还满足真实表达时间序列？想讨论如何用观测数据缩小功能等价网络的集合。",
@@ -508,7 +756,24 @@
     "scholarSource": "",
     "scholarEvidence": "已检查官方/实验室主页并检索，暂未确认独立个人主页；不表示本人没有主页。",
     "scholarStatus": "个人主页待核实",
-    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Ming+Han+Peking+University&hl=en"
+    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Ming+Han+Peking+University&hl=en",
+    "officeStatus": "课题组实验室",
+    "officeNote": "2026 年暑期房间表明确列韩铭课题组 4114；联合课题组另有吕志和楼北侧 232 联系人地址。均未明确为个人办公室。",
+    "officeSources": [
+      {
+        "label": "2026 年暑期房间表",
+        "url": "https://cqb.pku.edu.cn/info/1064/6153.htm"
+      },
+      {
+        "label": "CQB 个人页",
+        "url": "https://cqb.pku.edu.cn/info/1002/2541.htm"
+      }
+    ],
+    "officeChecked": "2026-09-15",
+    "kindCode": "dry",
+    "kindLabel": "干 Dry",
+    "kindSource": "https://cqb.pku.edu.cn/info/1002/2541.htm",
+    "kindNote": "官方研究兴趣直接包含 GRN 反演、果蝇与线虫早期胚胎形态和命运；方法背景为机器学习与软物质物理。"
   },
   {
     "id": "li-tiejun",
@@ -528,7 +793,7 @@
     "paper": "On the Mathematics of RNA Velocity I: Theoretical Analysis · 2021",
     "paperUrl": "https://www.math.pku.edu.cn/teachers/litj/",
     "email": "tieli@math.pku.edu.cn",
-    "address": "智华楼385（本人主页明确办公室）。",
+    "address": "北京大学智华楼（新数学楼）385 室",
     "official": "https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/l_20180628175159671361/69933.htm",
     "lab": "https://www.math.pku.edu.cn/teachers/litj/",
     "ask": "想讨论仅由终态分布或细胞快照能识别多少真实动力学信息，以及生成轨迹在哪些附加约束下能够获得机理解释。",
@@ -538,14 +803,31 @@
     "scholarSource": "",
     "scholarEvidence": "已检查官方/实验室主页并检索，暂未确认独立个人主页；不表示本人没有主页。",
     "scholarStatus": "个人主页待核实",
-    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Tiejun+Li+Peking+University&hl=en"
+    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Tiejun+Li+Peking+University&hl=en",
+    "officeStatus": "办公室已核对",
+    "officeNote": "本人主页与数学学院个人页一致。",
+    "officeSources": [
+      {
+        "label": "本人主页",
+        "url": "https://www.math.pku.edu.cn/teachers/litj/"
+      },
+      {
+        "label": "数学学院个人页",
+        "url": "https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/l_20180628175159671361/69933.htm"
+      }
+    ],
+    "officeChecked": "2026-09-15",
+    "kindCode": "dry",
+    "kindLabel": "干 Dry",
+    "kindSource": "https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/l_20180628175159671361/69933.htm",
+    "kindNote": "本人主页列 RNA velocity 数学理论、细胞分化能量景观；与周沛劼有持续合作。"
   },
   {
     "id": "li-fangting",
     "name": "李方廷",
     "en": "Fangting Li",
     "unit": "物理学院 · 定量生物学中心",
-    "kind": "干实验",
+    "kind": "干湿结合",
     "tier": "重点扩展",
     "tags": [
       "细胞周期",
@@ -557,7 +839,7 @@
     "paper": "The yeast cell-cycle network is robustly designed · PNAS 2004",
     "paperUrl": "https://cqb.pku.edu.cn/info/1002/1821.htm",
     "email": "li_fangting@pku.edu.cn",
-    "address": "物理学院／CQB；办公室未核实。",
+    "address": "北京大学新奥工学大楼 4124（李方廷实验室）；个人办公室待确认",
     "official": "https://cqb.pku.edu.cn/info/1002/1821.htm",
     "lab": "https://cqb.pku.edu.cn/info/1002/1821.htm",
     "ask": "想请教怎样为生成网络建立比最终斑图分数更严格的鲁棒性标准，例如参数扰动和噪声下的功能保持。",
@@ -567,7 +849,24 @@
     "scholarSource": "",
     "scholarEvidence": "已检查官方/实验室主页并检索，暂未确认独立个人主页；不表示本人没有主页。",
     "scholarStatus": "个人主页待核实",
-    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Fangting+Li+Peking+University&hl=en"
+    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Fangting+Li+Peking+University&hl=en",
+    "officeStatus": "课题组实验室",
+    "officeNote": "2026 年暑期房间表明确列李方廷实验室 4124；个人主页的办公地点仅写物理学院。课题组联系人另在老化学楼东配楼 301-4。",
+    "officeSources": [
+      {
+        "label": "2026 年暑期房间表",
+        "url": "https://cqb.pku.edu.cn/info/1064/6153.htm"
+      },
+      {
+        "label": "本人教师主页",
+        "url": "https://faculty.pku.edu.cn/lifangting/zh_CN/index/7808/list/index.htm"
+      }
+    ],
+    "officeChecked": "2026-09-15",
+    "kindNote": "动力学建模与定量细胞／基因调控实验结合。",
+    "kindSource": "https://faculty.pku.edu.cn/lifangting/zh_CN/index/7808/list/index.htm",
+    "kindCode": "mixed",
+    "kindLabel": "综合 Dry + Wet"
   },
   {
     "id": "lin-jie",
@@ -587,7 +886,7 @@
     "paper": "Heterogeneous elasticity drives ripening and controls bursting kinetics of transcriptional condensates · PNAS 2024",
     "paperUrl": "https://cqb.pku.edu.cn/info/1002/1816.htm",
     "email": "linjie@pku.edu.cn",
-    "address": "CQB；个人办公室未核实。",
+    "address": "北京大学吕志和楼 205 室（课题组官网联系地址）",
     "official": "https://cqb.pku.edu.cn/info/1002/1816.htm",
     "lab": "https://cqb.pku.edu.cn/jlingroup",
     "ask": "想请教在生成基因网络的简单动力学中，哪些生长、浓度或噪声约束最应优先加入，才能产生可测量的理论预测。",
@@ -597,7 +896,24 @@
     "scholarSource": "",
     "scholarEvidence": "已检查官方/实验室主页并检索，暂未确认独立个人主页；不表示本人没有主页。",
     "scholarStatus": "个人主页待核实",
-    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Jie+Lin+Peking+University&hl=en"
+    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Jie+Lin+Peking+University&hl=en",
+    "officeStatus": "课题组联系房间",
+    "officeNote": "课题组 Contact 页列 205；2026 年暑期表的北侧 232 是宋晨／林杰／韩铭三组联合联系人地址。会面房间请确认。",
+    "officeSources": [
+      {
+        "label": "林杰课题组 Contact",
+        "url": "https://cqb.pku.edu.cn/jlingroup/Contact.htm"
+      },
+      {
+        "label": "联合课题组联系地址",
+        "url": "https://cqb.pku.edu.cn/info/1064/6153.htm"
+      }
+    ],
+    "officeChecked": "2026-09-15",
+    "kindCode": "dry",
+    "kindLabel": "干 Dry",
+    "kindSource": "https://cqb.pku.edu.cn/info/1002/1816.htm",
+    "kindNote": "本人研究说明强调能产生可检验预测的数学模型；2024年研究凝聚体弹性与转录爆发。"
   },
   {
     "id": "qi-zhi",
@@ -617,7 +933,7 @@
     "paper": "Modeling phase separation of biomolecular condensates with data-driven mass-conserving reaction-diffusion systems · Structure 2025",
     "paperUrl": "https://doi.org/10.1016/j.str.2025.05.018",
     "email": "zhiqi7@pku.edu.cn",
-    "address": "CQB；个人房间未核实。",
+    "address": "北京大学吕志和楼南侧 206 室",
     "official": "https://cqb.pku.edu.cn/info/1002/1813.htm",
     "lab": "https://cqb.pku.edu.cn/qizhi/",
     "ask": "想讨论离散几何或反应扩散模型能否在凝聚体形态变化数据上得到检验，并辨认哪些参数可由实验测量约束。",
@@ -627,7 +943,20 @@
     "scholarSource": "https://adscientificindex.com/scientist/zhi-qi/705970/",
     "scholarEvidence": "作者资料页，北大单位及单分子研究论文匹配",
     "scholarStatus": "已核对主页",
-    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Zhi+Qi+Peking+University&hl=en"
+    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Zhi+Qi+Peking+University&hl=en",
+    "officeStatus": "本人联系房间已核对",
+    "officeNote": "2026 年暑期值班表将该房间列在齐志本人名下。",
+    "officeSources": [
+      {
+        "label": "2026 年暑期房间表",
+        "url": "https://cqb.pku.edu.cn/info/1064/6153.htm"
+      }
+    ],
+    "officeChecked": "2026-09-15",
+    "kindCode": "mixed",
+    "kindLabel": "综合 Dry + Wet",
+    "kindSource": "https://cqb.pku.edu.cn/info/1002/1813.htm",
+    "kindNote": "2025年 Structure 论文直接用数据驱动质量守恒反应扩散系统建模凝聚体，并有 DNA—蛋白共凝聚实验体系。"
   },
   {
     "id": "wei-wensheng",
@@ -657,7 +986,11 @@
     "scholarSource": "",
     "scholarEvidence": "已检查官方/实验室主页并检索，暂未确认独立个人主页；不表示本人没有主页。",
     "scholarStatus": "个人主页待核实",
-    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Wensheng+Wei+Peking+University&hl=en"
+    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Wensheng+Wei+Peking+University&hl=en",
+    "kindCode": "wet",
+    "kindLabel": "湿 Wet",
+    "kindSource": "https://www.aais.pku.edu.cn/info/1434/2816.htm",
+    "kindNote": "2025年单碱基精度肿瘤免疫调控变异筛选；实验室长期开发 RNA 编辑与功能基因组平台。"
   },
   {
     "id": "han-jingdong",
@@ -677,7 +1010,7 @@
     "paper": "非编码 RNA、表观修饰与 AI 研究方向 · 官方2026年招聘",
     "paperUrl": "https://cqb.pku.edu.cn/info/1064/6063.htm",
     "email": "jackie.han@pku.edu.cn",
-    "address": "CQB；具体楼栋/房间需确认。",
+    "address": "北京大学吕志和楼北侧 226 室",
     "official": "https://cqb.pku.edu.cn/info/1002/1825.htm",
     "lab": "https://cqb.pku.edu.cn/hanlab",
     "ask": "想交流如何用非编码 RNA 和调控网络先验约束细胞状态生成模型，并选出可通过扰动区分的衰老或分化机制。",
@@ -687,7 +1020,20 @@
     "scholarSource": "",
     "scholarEvidence": "已检查官方/实验室主页并检索，暂未确认独立个人主页；不表示本人没有主页。",
     "scholarStatus": "个人主页待核实",
-    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Jing-Dong+Jackie+Han+Peking+University&hl=en"
+    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Jing-Dong+Jackie+Han+Peking+University&hl=en",
+    "officeStatus": "本人联系房间已核对",
+    "officeNote": "2026 年暑期表中韩敬东本人对应 226；231 是课题组联系人房间。",
+    "officeSources": [
+      {
+        "label": "2026 年暑期房间表",
+        "url": "https://cqb.pku.edu.cn/info/1064/6153.htm"
+      }
+    ],
+    "officeChecked": "2026-09-15",
+    "kindCode": "mixed",
+    "kindLabel": "综合 Dry + Wet",
+    "kindSource": "https://cqb.pku.edu.cn/info/1002/1825.htm",
+    "kindNote": "2026年7月官方招聘明确非编码 RNA、表观修饰和 AI 在衰老/发育中的研究，结合实验与时空轨迹分析。"
   },
   {
     "id": "li-xuhang",
@@ -717,7 +1063,11 @@
     "scholarSource": "https://systems-metabolism.org/publications/",
     "scholarEvidence": "实验室论文页直接链接",
     "scholarStatus": "已核对主页",
-    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Xuhang+%28Hang%29+Li+Peking+University&hl=en"
+    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Xuhang+%28Hang%29+Li+Peking+University&hl=en",
+    "kindCode": "mixed",
+    "kindLabel": "综合 Dry + Wet",
+    "kindSource": "https://web.bio.pku.edu.cn/homes/Index/news_cont_jl/16/1157.html",
+    "kindNote": "学院主页确认2026年1月入职，明确结合 AI 蛋白设计开发体内代谢操纵方法，研究生命体系统层面的代谢。"
   },
   {
     "id": "gao-yiqin",
@@ -737,7 +1087,7 @@
     "paper": "MolEdit · 物理信息与偏好对齐的分子生成 · 2025",
     "paperUrl": "https://www.chem.pku.edu.cn/kyjz/9hxyzww170079.htm",
     "email": "gaoyq@pku.edu.cn",
-    "address": "化学与分子工程学院；办公室本轮未核实。",
+    "address": "北京大学化学楼 C318 室",
     "official": "https://www.chem.pku.edu.cn/ktz2/wlhxktzz/1402.htm",
     "lab": "https://www.chem.pku.edu.cn/gaoyq",
     "ask": "想讨论怎样让奖励函数同时体现物理可行性和任务目标，以及如何判断高分生成结果是否只是利用了代理模型漏洞。",
@@ -747,6 +1097,19 @@
     "scholarSource": "",
     "scholarEvidence": "已检查官方/实验室主页并检索，暂未确认独立个人主页；不表示本人没有主页。",
     "scholarStatus": "个人主页待核实",
-    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Yiqin+Gao+Peking+University&hl=en"
+    "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Yiqin+Gao+Peking+University&hl=en",
+    "officeStatus": "办公室已核对",
+    "officeNote": "化学学院办公电话簿将 C318 标在高毅勤本人名下。",
+    "officeSources": [
+      {
+        "label": "化学学院办公电话簿",
+        "url": "https://www.chem.pku.edu.cn/bgfwdh/bgdh/index.htm"
+      }
+    ],
+    "officeChecked": "2026-09-15",
+    "kindCode": "dry",
+    "kindLabel": "干 Dry",
+    "kindSource": "https://www.chem.pku.edu.cn/ktz2/wlhxktzz/1402.htm",
+    "kindNote": "2025年 MolEdit 将物理信息和偏好对齐用于分子生成；长期研究分子模拟和增强采样。"
   }
 ]
