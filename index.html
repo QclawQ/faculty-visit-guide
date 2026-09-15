@@ -1,119 +1,22 @@
 <!doctype html>
-<html lang="zh-CN">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="robots" content="noindex,nofollow,noarchive,noimageindex">
-  <meta name="theme-color" content="#0b3b4a">
-  <title>GFlowNet 教授拜访名单</title>
-  <style>
-    :root { color-scheme:light; --ink:#181818; --muted:#6b6b6b; --link:#145c8e; --line:#dddddd; }
-    * { box-sizing:border-box; }
-    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Noto Sans CJK SC",sans-serif; color:var(--ink); background:#fff; }
-    .shell { width:min(760px,100%); margin:auto; padding:24px 18px 48px; }
-    header { padding-bottom:18px; border-bottom:1px solid var(--line); }
-    h1 { margin:0; font-size:24px; line-height:1.2; }
-    .sub { margin:7px 0 0; color:var(--muted); font-size:13px; line-height:1.5; }
-    .tools { padding:14px 0 6px; }
-    .search { width:100%; border:0; border-bottom:1px solid #aaa; border-radius:0; background:#fff; padding:10px 0; font-size:16px; outline:none; }
-    .search:focus { border-bottom-color:var(--ink); }
-    .meta { margin:10px 0 2px; color:var(--muted); font-size:12px; }
-    .list { display:block; }
-    article { padding:20px 0; border-bottom:1px solid var(--line); }
-    .top { display:flex; gap:10px; align-items:flex-start; }
-    .rank { flex:0 0 auto; width:24px; color:var(--muted); font-size:14px; line-height:26px; text-align:right; }
-    h2 { margin:0 0 4px; font-size:18px; line-height:1.35; }
-    .identity { color:var(--muted); font-size:13px; line-height:1.4; }
-    .line { margin:10px 0 0 34px; font-size:14px; line-height:1.55; }
-    .line span { color:var(--muted); }
-    details { margin:10px 0 0 34px; }
-    summary { color:var(--link); font-size:13px; cursor:pointer; }
-    .detail { margin-top:10px; color:#333; font-size:13px; line-height:1.55; }
-    .links { display:flex; flex-wrap:wrap; gap:6px 15px; margin:12px 0 0 34px; }
-    .links a { color:var(--link); font-size:13px; text-decoration:none; }
-    .links a:hover { text-decoration:underline; }
-    .empty { padding:28px 0; color:var(--muted); }
-    footer { margin-top:22px; color:var(--muted); font-size:11px; line-height:1.5; }
-  </style>
-</head>
-<body>
-  <main class="shell">
-    <header>
-      <h1>教授拜访名单</h1>
-      <p class="sub">按建议联系顺序排列，共 16 位。到访前请先邮件预约。</p>
-    </header>
-    <section class="tools" aria-label="搜索">
-      <input id="search" class="search" type="search" placeholder="搜索姓名、方向或校区" autocomplete="off">
-    </section>
-    <div class="meta" id="count"></div>
-    <section class="list" id="cards"></section>
-    <footer>低曝光公开页面：已设置 noindex，但任何拿到 URL 的人仍可查看。请勿在这里记录私人评价或联系进度。</footer>
-  </main>
-  <script>
-    const records = [{"rank":1,"name":"曹龙兴 / Longxing Cao","identity":"西湖大学｜生命科学学院助理教授 / PI","fields":"深度学习蛋白结构/序列生成；de novo 蛋白设计；蛋白结合物；治疗性蛋白","fit":"用 GFlowNet 做多目标、具多样性的蛋白序列设计；与现有结构条件生成方法比较并设计验证任务","mode":"强干湿结合：算法设计→蛋白合成→结构与功能验证","official":"https://en.westlake.edu.cn/faculty/longxing-cao.html","lab":"https://en.wllsb.edu.cn/research/researchTeam/202303/t20230323_26729.shtml","email":"caolongxing@westlake.edu.cn","address":"【公开到校区｜置信度高】云栖校区；未公开具体楼栋/房间；导航：杭州市西湖区石龙山街18号，西湖大学云栖校区，310024","action":"先邮件预约并确认楼栋、房间及访客登记","source":"https://lifesciences.westlake.edu.cn/faculty/longxing-cao.html","campus":"云栖","map":"https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%E5%B8%82%E8%A5%BF%E6%B9%96%E5%8C%BA%E7%9F%B3%E9%BE%99%E5%B1%B1%E8%A1%9718%E5%8F%B7%EF%BC%8C%E8%A5%BF%E6%B9%96%E5%A4%A7%E5%AD%A6%E4%BA%91%E6%A0%96%E6%A0%A1%E5%8C%BA%EF%BC%8C310024"},{"rank":2,"name":"郑甲 / Jia Zheng","identity":"西湖大学｜生命科学学院助理教授 / PI","fields":"蛋白序列空间；fitness landscape；分子演化；实验进化；蛋白工程；AI/建模","fit":"把 GFlowNet 的多峰采样与 fitness landscape、evolvability、序列空间探索建立严谨联系","mode":"强干湿结合：实验进化与高通量测量结合建模、数据挖掘","official":"https://en.westlake.edu.cn/faculty/jia-zheng.html","lab":"https://mee.lab.westlake.edu.cn/","email":"zhengjia@westlake.edu.cn","address":"【公开到房间/楼栋｜置信度高】云谷校区；办公室 E7-404/406；通信地址 E7-401；导航：杭州市西湖区三墩镇墩余路600号，西湖大学生命科学学院 E7，310030","action":"先邮件约时间；到校前确认进入 E7 的访客流程","source":"https://mee.lab.westlake.edu.cn/Join_us_Contact.htm","campus":"云谷","map":"https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%E5%B8%82%E8%A5%BF%E6%B9%96%E5%8C%BA%E4%B8%89%E5%A2%A9%E9%95%87%E5%A2%A9%E4%BD%99%E8%B7%AF600%E5%8F%B7%EF%BC%8C%E8%A5%BF%E6%B9%96%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%A6%E5%AD%A6%E9%99%A2%20E7%EF%BC%8C310030"},{"rank":3,"name":"卢培龙 / Peilong Lu","identity":"西湖大学｜生命科学学院副教授 / PI；新基石研究员","fields":"de novo 蛋白设计；跨膜蛋白；酶与治疗蛋白；镜像蛋白；基因编辑","fit":"设计多约束、多样化功能蛋白候选；突出 GFlowNet 的 mode coverage 和多目标优化价值","mode":"强干湿结合：计算/AI 设计→结构生物学→细胞/功能验证","official":"https://en.westlake.edu.cn/faculty/peilong-lu.html","lab":"https://protein-design.lab.westlake.edu.cn/","email":"lupeilong@westlake.edu.cn","address":"【公开到校区/街道｜置信度高】云栖校区；未公开具体楼栋/房间；导航：杭州市西湖区石龙山街18号，西湖大学云栖校区，310024","action":"先邮件预约并确认楼栋、房间及访客登记","source":"https://protein-design.lab.westlake.edu.cn/","campus":"云栖","map":"https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%E5%B8%82%E8%A5%BF%E6%B9%96%E5%8C%BA%E7%9F%B3%E9%BE%99%E5%B1%B1%E8%A1%9718%E5%8F%B7%EF%BC%8C%E8%A5%BF%E6%B9%96%E5%A4%A7%E5%AD%A6%E4%BA%91%E6%A0%96%E6%A0%A1%E5%8C%BA%EF%BC%8C310024"},{"rank":4,"name":"孙仁 / Ren Sun","identity":"西湖大学｜讲席教授；感染性疾病研究中心主任；校长资深顾问","fields":"系统病毒学；病毒全基因组功能图谱；深度学习；多组学；结构生物学；疫苗工程","fit":"将 GFlowNet 用于病毒序列、免疫逃逸与减毒设计的多目标多样性采样","mode":"极强干湿结合：基因组/蛋白组/微流控/建模/深度学习→病毒工程与动物验证","official":"https://en.westlake.edu.cn/faculty/ren-sun.html","lab":"https://rensun.lab.westlake.edu.cn/","email":"sunren@westlake.edu.cn","address":"【公开到中心/街道｜置信度高】云栖校区（铜鉴湖园区/CIDR）；感染性疾病研究中心；未公开具体房间；导航：杭州市西湖区转塘街道石龙山工业区25号，310024","action":"先邮件预约并确认中心入口、楼栋和访客登记","source":"https://rensun.lab.westlake.edu.cn/","campus":"云栖","map":"https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%E5%B8%82%E8%A5%BF%E6%B9%96%E5%8C%BA%E8%BD%AC%E5%A1%98%E8%A1%97%E9%81%93%E7%9F%B3%E9%BE%99%E5%B1%B1%E5%B7%A5%E4%B8%9A%E5%8C%BA25%E5%8F%B7%EF%BC%8C310024"},{"rank":5,"name":"袁法杰 / Fajie Yuan","identity":"西湖大学｜工学院助理教授 / PI","fields":"蛋白语言模型；表征学习；生成/序列模型；AI+Life Science；推荐系统","fit":"Protein-LM prior/embedding + GFlowNet；设计可控、多目标的 protein sequence generator","mode":"以干实验为主，已有与湿实验团队合作验证的成果","official":"https://en.westlake.edu.cn/faculty/fajie-yuan.html","lab":"https://fajieyuan.github.io","email":"yuanfajie@westlake.edu.cn","address":"【公开到校区｜置信度高】云谷校区；未公开具体楼栋/房间；导航：杭州市西湖区墩余路600号，西湖大学云谷校区，310030","action":"先邮件预约；请对方确认具体楼栋/房间","source":"https://en.westlake.edu.cn/PDF/2026Summer_Research_Internship_Opportunities.pdf","campus":"云谷","map":"https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%E5%B8%82%E8%A5%BF%E6%B9%96%E5%8C%BA%E5%A2%A9%E4%BD%99%E8%B7%AF600%E5%8F%B7%EF%BC%8C%E8%A5%BF%E6%B9%96%E5%A4%A7%E5%AD%A6%E4%BA%91%E8%B0%B7%E6%A0%A1%E5%8C%BA%EF%BC%8C310030"},{"rank":6,"name":"曾坚阳 / Jianyang Zeng","identity":"西湖大学｜工学院教授；生命科学学院兼聘","fields":"计算生物学；机器学习；生物大数据；分子表征；蛋白/多组学；AI for Life Sciences","fit":"评估算法贡献、bioinformatics 叙事、基准设计、投稿 venue 与文章结构","mode":"计算为核心；课题组公开方向含高通量实验/测序方法及跨学科合作","official":"https://en.westlake.edu.cn/faculty/jianyang-zeng.html","lab":"https://aicb.lab.westlake.edu.cn/","email":"zengjy@westlake.edu.cn","address":"【公开到校区/街道｜置信度高】云谷校区；实验室联系页公开墩余路600号；未公开房间；导航：杭州市西湖区三墩镇墩余路600号，西湖大学云谷校区，310030","action":"先邮件预约；请对方确认具体楼栋/房间","source":"https://aicb.lab.westlake.edu.cn/","campus":"云谷","map":"https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%E5%B8%82%E8%A5%BF%E6%B9%96%E5%8C%BA%E4%B8%89%E5%A2%A9%E9%95%87%E5%A2%A9%E4%BD%99%E8%B7%AF600%E5%8F%B7%EF%BC%8C%E8%A5%BF%E6%B9%96%E5%A4%A7%E5%AD%A6%E4%BA%91%E8%B0%B7%E6%A0%A1%E5%8C%BA%EF%BC%8C310030"},{"rank":7,"name":"张凯 / Kai Zhang","identity":"西湖大学｜生命科学学院助理教授 / PI","fields":"计算生物学；应用机器学习；单细胞表观基因组；调控网络；非编码变异；foundation models","fit":"把 GFlowNet 转向 cis-regulatory sequence、非编码变异或调控元件设计，并建立实验合作接口","mode":"计算实验室；明确与校内外实验生物学家广泛合作验证","official":"https://en.westlake.edu.cn/faculty/kai-zhang.html","lab":"https://lab.kaizhang.org","email":"zhangkai33@westlake.edu.cn","address":"【公开到房间/楼栋｜置信度高】云栖校区；西湖实验室 3号楼411；导航：杭州市西湖区石龙山街18号，西湖实验室3号楼411，310024","action":"先邮件预约并确认 3号楼门禁/访客登记","source":"https://lab.kaizhang.org/contact/","campus":"云栖","map":"https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%E5%B8%82%E8%A5%BF%E6%B9%96%E5%8C%BA%E7%9F%B3%E9%BE%99%E5%B1%B1%E8%A1%9718%E5%8F%B7%EF%BC%8C%E8%A5%BF%E6%B9%96%E5%AE%9E%E9%AA%8C%E5%AE%A43%E5%8F%B7%E6%A5%BC411%EF%BC%8C310024"},{"rank":8,"name":"吴泰霖 / Tailin Wu","identity":"西湖大学｜工学院助理教授；理学院兼聘","fields":"生成式 AI；diffusion/flow matching；强化学习；inverse design；图学习；AI for Science/biology","fit":"从 flow、RL、可控生成、compositional inverse design 角度审查方法与实验；讨论为何需要 GFlowNet","mode":"以算法/模拟为主；组内已有蛋白设计与 AI for Biology 成员","official":"https://en.westlake.edu.cn/faculty/tailin-wu.html","lab":"https://ai4s.lab.westlake.edu.cn/","email":"wutailin@westlake.edu.cn","address":"【课程地点（需确认）｜置信度中】云谷校区；E2-203（课程 office hour 地点；并非已确认的长期研究办公室）；导航：杭州市西湖区墩余路600号，西湖大学云谷校区，310030","action":"不要直接按 office hour 登门；先邮件确认当前办公室与可访时间","source":"https://ai4s.lab.westlake.edu.cn/assets/file/courseware/2025/01_Course%20Introduction.pdf","campus":"云谷","map":"https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%E5%B8%82%E8%A5%BF%E6%B9%96%E5%8C%BA%E5%A2%A9%E4%BD%99%E8%B7%AF600%E5%8F%B7%EF%BC%8C%E8%A5%BF%E6%B9%96%E5%A4%A7%E5%AD%A6%E4%BA%91%E8%B0%B7%E6%A0%A1%E5%8C%BA%EF%BC%8C310030"},{"rank":9,"name":"周沛劼 / Peijie Zhou","identity":"北京大学｜国际机器学习研究中心/定量生物学中心助理教授","fields":"AI for Biology；随机动力学；单细胞组学；生成动力学；optimal transport；RNA velocity","fit":"GFlowNet 与稀有事件、多峰状态空间、dynamical generative modeling 的方法连接","mode":"以计算建模为主，湿实验能力依赖合作","official":"https://cqb.pku.edu.cn/cqben/info/1002/1913.htm","lab":"https://cliffzhou92.github.io/","email":"pjzhou@pku.edu.cn","address":"【公开到中心地址｜置信度高】北京大学燕园校区（CQB）；老化学楼东配楼301-1（定量生物学中心快递地址；非个人办公室）；导航：北京大学老化学楼东配楼301-1，北京 100871","action":"先邮件预约；请确认个人办公室及进校/进楼安排","source":"https://cqb.pku.edu.cn/cqben/Contact.htm","campus":"北大","map":"https://uri.amap.com/search?keyword=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E8%80%81%E5%8C%96%E5%AD%A6%E6%A5%BC%E4%B8%9C%E9%85%8D%E6%A5%BC301-1%EF%BC%8C%E5%8C%97%E4%BA%AC%20100871"},{"rank":10,"name":"白蕊 / Rui Bai","identity":"西湖大学｜生命科学学院助理教授 / PI","fields":"RNA 剪接；剪接体；非经典剪接；RNA 调控网络；剪接系统演化；疾病机制","fit":"把序列生成落在 splice-site、intron 或 RNA regulatory sequence；定义生物有效的 reward","mode":"强湿实验并结合遗传学、生化、生物物理和生信","official":"https://en.westlake.edu.cn/faculty/rui-bai.html","lab":"https://lifesciences.westlake.edu.cn/faculty/rui-bai.html","email":"bairui@westlake.edu.cn","address":"【未公开｜置信度低】待邮件确认；个人办公室与所在校区未在教师主页单列；导航：不建议直接导航；学院公开云谷、云栖两校区，需先确认","action":"邮件中直接询问校区、楼栋、房间和访客登记","source":"https://lifesciences.westlake.edu.cn/faculty/rui-bai.html","campus":"云栖","map":"https://uri.amap.com/search?keyword=%E4%B8%8D%E5%BB%BA%E8%AE%AE%E7%9B%B4%E6%8E%A5%E5%AF%BC%E8%88%AA%EF%BC%9B%E5%AD%A6%E9%99%A2%E5%85%AC%E5%BC%80%E4%BA%91%E8%B0%B7%E3%80%81%E4%BA%91%E6%A0%96%E4%B8%A4%E6%A0%A1%E5%8C%BA%EF%BC%8C%E9%9C%80%E5%85%88%E7%A1%AE%E8%AE%A4"},{"rank":11,"name":"傅向东 / Xiang-Dong Fu","identity":"西湖大学｜医学院/生命科学学院 RNA 生物学与再生医学讲席教授","fields":"pre-mRNA 剪接；RNA-binding proteins；RNA 调控程序；细胞命运与再生医学","fit":"如果扩展至 mRNA、剪接调控元件或 RNA 功能生成，请其帮助定义真正重要且可验证的问题","mode":"强湿实验与机制生物学，具有 RNA 数据分析/生信接口","official":"https://lifesciences.westlake.edu.cn/faculty/xiangdong-fu.html","lab":"https://lifesciences.westlake.edu.cn/faculty/xiangdong-fu.html","email":"fuxiangdong@westlake.edu.cn","address":"【公开到校区｜置信度高】云栖校区；未公开具体楼栋/房间；导航：杭州市西湖区石龙山街18号，西湖大学云栖校区，310024","action":"先邮件预约并确认楼栋、房间及访客登记","source":"https://lifesciences.westlake.edu.cn/faculty/xiangdong-fu.html","campus":"云栖","map":"https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%E5%B8%82%E8%A5%BF%E6%B9%96%E5%8C%BA%E7%9F%B3%E9%BE%99%E5%B1%B1%E8%A1%9718%E5%8F%B7%EF%BC%8C%E8%A5%BF%E6%B9%96%E5%A4%A7%E5%AD%A6%E4%BA%91%E6%A0%96%E6%A0%A1%E5%8C%BA%EF%BC%8C310024"},{"rank":12,"name":"朱听 / Ting Zhu","identity":"西湖大学｜生命科学学院镜像分子生物学讲席教授","fields":"镜像 DNA/RNA；合成生物学；aptamer 定向进化；聚合酶；RNA/DNA sequencing","fit":"GFlowNet 用于 aptamer/ribozyme 多目标序列库设计，并与 directed evolution/selection 闭环","mode":"极强湿实验与合成/选择平台；计算生成需外部合作","official":"https://en.westlake.edu.cn/faculty/ting-zhu.html","lab":"https://zhu.lab.westlake.edu.cn","email":"tzhu@westlake.edu.cn","address":"【公开到房间/楼栋｜置信度高】云谷校区；E6-109；导航：杭州市西湖区墩余路600号，西湖大学云谷校区 E6-109，310030","action":"先邮件预约；也可先联系官网所列行政助理确认访客流程","source":"https://lifesciences.westlake.edu.cn/labs/ting-zhu/mirror-image-molecular-biology-laboratory/join-contact/","campus":"云谷","map":"https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%E5%B8%82%E8%A5%BF%E6%B9%96%E5%8C%BA%E5%A2%A9%E4%BD%99%E8%B7%AF600%E5%8F%B7%EF%BC%8C%E8%A5%BF%E6%B9%96%E5%A4%A7%E5%AD%A6%E4%BA%91%E8%B0%B7%E6%A0%A1%E5%8C%BA%20E6-109%EF%BC%8C310030"},{"rank":13,"name":"柴继杰 / Ji-Jie Chai","identity":"西湖大学｜植物免疫信号讲席教授","fields":"植物 NLR/RLK；resistosome；结构生物学；植物免疫；小分子信号","fit":"生成 NLR/免疫受体或结构约束蛋白候选，服务作物抗病设计","mode":"强湿实验：结构、生化、遗传、组学，并使用 bioinformatics","official":"https://en.westlake.edu.cn/faculty/jijie-chai.html","lab":"https://en.westlake.edu.cn/faculty/jijie-chai.html","email":"chaijijie@westlake.edu.cn","address":"【未公开；仅非办公室线索｜置信度低】待邮件确认；个人办公室未公开；官方公示曾使用云谷 E9 三楼公告栏（不是办公室）；导航：不建议把 E9 公告栏当办公室；先邮件确认","action":"必须先邮件确认校区、楼栋、房间；不要依据活动/公示地点登门","source":"https://lifesciences.westlake.edu.cn/faculty/jijie-chai.html","campus":"云谷","map":"https://uri.amap.com/search?keyword=%E4%B8%8D%E5%BB%BA%E8%AE%AE%E6%8A%8A%20E9%20%E5%85%AC%E5%91%8A%E6%A0%8F%E5%BD%93%E5%8A%9E%E5%85%AC%E5%AE%A4%EF%BC%9B%E5%85%88%E9%82%AE%E4%BB%B6%E7%A1%AE%E8%AE%A4"},{"rank":14,"name":"杨剑 / Jian Yang","identity":"西湖大学｜统计遗传学讲席教授；生命科学学院副院长","fields":"统计遗传学；GWAS；群体基因组；单细胞/空间组学；AI in genetics；高性能生信工具","fit":"若项目转向群体序列、变异采样或 genomics benchmark，请其审查统计设计与评价","mode":"明确为纯数据科学实验室，无自有湿实验台；通过数据和合作连接实验","official":"https://en.westlake.edu.cn/faculty/jian-yang.html","lab":"https://yanglab.westlake.edu.cn","email":"jian.yang@westlake.edu.cn","address":"【公开到校区｜置信度高】云谷校区；统计遗传学实验室；未公开具体房间；导航：杭州市西湖区墩余路600号，西湖大学云谷校区，310030","action":"先邮件预约并确认楼栋、房间及访客登记","source":"https://lifesciences.westlake.edu.cn/faculty/jian-yang.html","campus":"云谷","map":"https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%E5%B8%82%E8%A5%BF%E6%B9%96%E5%8C%BA%E5%A2%A9%E4%BD%99%E8%B7%AF600%E5%8F%B7%EF%BC%8C%E8%A5%BF%E6%B9%96%E5%A4%A7%E5%AD%A6%E4%BA%91%E8%B0%B7%E6%A0%A1%E5%8C%BA%EF%BC%8C310030"},{"rank":15,"name":"施一公 / Yigong Shi","identity":"西湖大学｜校长；结构生物学讲席教授","fields":"剪接体结构；γ-secretase；膜蛋白；结构生物学；基因表达","fit":"只有通过内部引荐且已有成熟结果时，请其从 RNA/结构生物学重要性与论文定位给意见","mode":"顶级湿实验/结构生物学平台；本人行政负担极高","official":"https://lifesciences.westlake.edu.cn/faculty/yigong-shi.html","lab":"https://ygshi.org/","email":"syg@westlake.edu.cn","address":"【公开到研究项目校区｜置信度高】云栖校区（结构生物学项目）；个人/实验室房间未公开；校长办公室位置亦未公开；导航：杭州市西湖区石龙山街18号，西湖大学云栖校区，310024","action":"不建议冷启动登门；仅在有内部引荐或明确预约后到访","source":"https://en.westlake.edu.cn/PDF/2026Summer_Research_Internship_Opportunities.pdf","campus":"云栖","map":"https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%E5%B8%82%E8%A5%BF%E6%B9%96%E5%8C%BA%E7%9F%B3%E9%BE%99%E5%B1%B1%E8%A1%9718%E5%8F%B7%EF%BC%8C%E8%A5%BF%E6%B9%96%E5%A4%A7%E5%AD%A6%E4%BA%91%E6%A0%96%E6%A0%A1%E5%8C%BA%EF%BC%8C310024"},{"rank":16,"name":"管坤良 / Kunliang Guan","identity":"西湖大学｜分子细胞生物学讲席教授；学术委员会主任","fields":"Hippo/YAP；mTOR；细胞生长与代谢；肿瘤生物学；信号转导","fit":"当序列设计已经指向 Hippo/mTOR 靶点、蛋白调控或肿瘤机制时再寻求生物学意见","mode":"强湿实验与疾病机制研究；与生成式序列方法距离较远","official":"https://en.westlake.edu.cn/faculty/kunliang-guan.html","lab":"https://lifesciences.westlake.edu.cn/labs/kunliang-guan/","email":"guankunliang@westlake.edu.cn","address":"【公开到校区｜置信度高】云谷校区；分子细胞生物学实验室；未公开具体房间；导航：杭州市西湖区墩余路600号，西湖大学云谷校区，310030","action":"先邮件预约并确认楼栋、房间及访客登记","source":"https://lifesciences.westlake.edu.cn/labs/kunliang-guan/molecular-cell-biology-laboratory/join-contact/","campus":"云谷","map":"https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%E5%B8%82%E8%A5%BF%E6%B9%96%E5%8C%BA%E5%A2%A9%E4%BD%99%E8%B7%AF600%E5%8F%B7%EF%BC%8C%E8%A5%BF%E6%B9%96%E5%A4%A7%E5%AD%A6%E4%BA%91%E8%B0%B7%E6%A0%A1%E5%8C%BA%EF%BC%8C310030"}];
-    const state = { query:"" };
-    const search = document.querySelector("#search");
-    const cards = document.querySelector("#cards");
-    const count = document.querySelector("#count");
-
-    function el(tag, cls, text) {
-      const node = document.createElement(tag);
-      if (cls) node.className = cls;
-      if (text !== undefined) node.textContent = text;
-      return node;
-    }
-    function link(label, href) {
-      const a = el("a","",label);
-      a.href = href; a.target = "_blank"; a.rel = "noopener noreferrer";
-      return a;
-    }
-    function renderCards() {
-      const q = state.query.trim().toLowerCase();
-      const visible = records.filter(function(r) {
-        const text = Object.values(r).join(" ").toLowerCase();
-        return !q || text.includes(q);
-      });
-      count.textContent = visible.length + " / " + records.length;
-      cards.replaceChildren();
-      if (!visible.length) { cards.append(el("div","empty","没有匹配结果")); return; }
-      visible.forEach(function(r) {
-        const card = el("article");
-        const top = el("div","top");
-        top.append(el("div","rank",String(r.rank) + "."));
-        const title = el("div");
-        title.append(el("h2","",r.name),el("div","identity",r.identity));
-        top.append(title); card.append(top);
-        const fields = el("div","line");
-        fields.append(el("span","","方向："),document.createTextNode(r.fields));
-        card.append(fields);
-        const address = el("div","line");
-        address.append(el("span","","地址："),document.createTextNode(r.address));
-        card.append(address);
-        const detail = el("details");
-        detail.append(el("summary","","更多"));
-        const detailBody = el("div","detail");
-        detailBody.append(
-          document.createTextNode("匹配点：" + r.fit),
-          document.createElement("br"),
-          document.createTextNode("干湿特点：" + r.mode),
-          document.createElement("br"),
-          document.createTextNode("到访前：" + r.action)
-        );
-        detail.append(detailBody);
-        card.append(detail);
-        const actions = el("div","links");
-        actions.append(
-          link("邮件","mailto:" + r.email),
-          link("地图",r.map),
-          link("官网",r.official),
-          link("实验室",r.lab),
-          link("地址来源",r.source)
-        );
-        card.append(actions); cards.append(card);
-      });
-    }
-    search.addEventListener("input", function(e){ state.query=e.target.value; renderCards(); });
-    renderCards();
-  </script>
-</body>
-</html>
+<!-- Generated by scripts/build.py. Edit school.json / records.json, not this file. -->
+<html lang="zh-CN"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow,noarchive,noimageindex">
+<meta name="theme-color" content="#ffffff">
+<title>教授名单 · 学校目录</title>
+<link rel="stylesheet" href="./assets/site.css">
+<script src="./assets/site.js" defer></script>
+</head><body><main>
+<nav aria-label="学校导航"><a href="./" aria-current="page">学校目录</a> <a href="./westlake/">西湖</a> <a href="./pku/">北大</a></nav>
+<header><h1>教授名单</h1><p class="sub">按学校整理 · 2 所学校 · 40 位老师</p></header>
+<ul class="school-list"><li><a href="./westlake/"><div class="school-heading"><h2>西湖大学 →</h2><span class="school-count">杭州 · 15 位</span></div><p>生物序列生成、蛋白设计与 RNA 调控。保留原建议联系顺序。</p></a></li>
+<li><a href="./pku/"><div class="school-heading"><h2>北京大学 →</h2><span class="school-count">北京 · 25 位</span></div><p>系统发育、RNA 调控与定量生物学，兼顾基因回路和细胞动力学。</p></a></li></ul>
+<p class="sub">选择学校查看。各校统一提供研究方向、干湿分类、公开联系方式与到访地址；详细依据可展开阅读。</p>
+<footer>
+<p>排序与干湿分类是基于公开研究的判断，不代表招生或合作承诺；地址可能变动，到访前请预约确认。</p>
+<p><a href="https://doi.org/10.64898/2026.04.08.717239" target="_blank" rel="noopener noreferrer">相关预印本</a> · <a href="https://github.com/QclawQ/gfn-v-9f2c7a" target="_blank" rel="noopener noreferrer">GitHub 仓库</a></p>
+<p>公开网页，无需登录。已设置 noindex，但这不是访问控制；请勿记录私人通信或联系进度。</p>
+</footer>
+</main></body></html>

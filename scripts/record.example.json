@@ -1,0 +1,15 @@
+{
+  "id": "example-person",
+  "name": "教师姓名",
+  "en": "English Name",
+  "unit": "学院 · 职称或研究团队",
+  "fields": "研究方向一；研究方向二",
+  "fit": "与序列生成、系统发育或其他研究主线的具体联系。",
+  "kindCode": "dry",
+  "kindNote": "根据公开研究说明计算／实验方式，不根据个人偏好猜测。",
+  "kindSource": "https://example.org/research",
+  "official": "https://example.org/faculty",
+  "address": "校区、楼栋及房间待本人确认",
+  "officeStatus": "未核实个人办公室",
+  "officeSources": [{"label": "教师主页", "url": "https://example.org/faculty"}]
+}
