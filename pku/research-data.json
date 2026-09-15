@@ -42,7 +42,7 @@
     ],
     "officeChecked": "2026-09-15",
     "kindCode": "dry",
-    "kindLabel": "干 Dry",
+    "kindLabel": "干",
     "kindSource": "https://www.stat-center.pku.edu.cn/zxry/zxjy/zc/1201854tjkxzx1314356.htm",
     "kindNote": "本人2025年论文包含将有向无环图系统扩展以寻找高后验密度系统树，与“从 DAG 得到树”的问题特别贴近；另有变分推断和标准化流工作。"
   },
@@ -85,7 +85,7 @@
     ],
     "officeChecked": "2026-09-15",
     "kindCode": "dry",
-    "kindLabel": "干 Dry",
+    "kindLabel": "干",
     "kindSource": "https://www.aais.pku.edu.cn/info/1410/17931.htm",
     "kindNote": "官方主页列出 ASTRAL-IV、ASTRAL-Pro、wASTRAL、CASTER、WASTER 与 TAPER，覆盖大规模建树和比对纠错。"
   },
@@ -132,7 +132,7 @@
     ],
     "officeChecked": "2026-09-15",
     "kindCode": "wet",
-    "kindLabel": "湿 Wet",
+    "kindLabel": "湿",
     "kindSource": "https://www.aais.pku.edu.cn/info/1434/2818.htm",
     "kindNote": "2014/2015 年 let-7 与干细胞自我更新工作；2019 年 miRNA 激活 CRISPR 传感器；2026 年 POND-seq 可追踪活细胞 RNA 并捕获 miRNA 及相关靶 RNA。"
   },
@@ -175,7 +175,7 @@
     ],
     "officeChecked": "2026-09-15",
     "kindCode": "wet",
-    "kindLabel": "湿 Wet",
+    "kindLabel": "湿",
     "kindSource": "https://www.aais.pku.edu.cn/info/1415/2769.htm",
     "kindNote": "研究 RNA 调控和干细胞命运；Nature 2021 工作关注全局 miRNA 剂量与胚层分化，Cell 2022 关注恢复 miRNA 缺失。"
   },
@@ -218,7 +218,7 @@
     ],
     "officeChecked": "2026-09-15",
     "kindCode": "mixed",
-    "kindLabel": "综合 Dry + Wet",
+    "kindLabel": "综合",
     "kindSource": "https://www.aais.pku.edu.cn/info/1423/2793.htm",
     "kindNote": "现行学院主页明确提出 RNA调控—分子进化—计算设计，结合果蝇、体外翻译、多组学与深度学习；2026年继续发表果蝇适应性演化研究。"
   },
@@ -265,7 +265,7 @@
     ],
     "officeChecked": "2026-09-15",
     "kindCode": "mixed",
-    "kindLabel": "综合 Dry + Wet",
+    "kindLabel": "综合",
     "kindSource": "https://cqb.pku.edu.cn/info/1002/1818.htm",
     "kindNote": "2026年 PNAS 研究用定向进化轨迹学习高阶蛋白适应度景观；2023年 Genome Research 研究 GRN 推断；具备活细胞时序成像与合成器件平台。"
   },
@@ -308,7 +308,7 @@
     ],
     "officeChecked": "2026-09-15",
     "kindCode": "mixed",
-    "kindLabel": "综合 Dry + Wet",
+    "kindLabel": "综合",
     "kindSource": "https://biopic.pku.edu.cn/zxpi/107bdswyxqycxzxgb510945.htm",
     "kindNote": "官方主页描述整合高通量遗传与功能基因组数据，研究表达调控因子的功能及演化；也是杜鹏 miRNA 剂量工作作者之一。"
   },
@@ -350,7 +350,7 @@
     ],
     "officeChecked": "2026-09-15",
     "kindCode": "dry",
-    "kindLabel": "干 Dry",
+    "kindLabel": "干",
     "kindSource": "https://cqb.pku.edu.cn/info/1002/1826.htm",
     "kindNote": "2024年树概率估计工作包含邓明华、张成；2022年与林一瀚合作用时间序列转录组推断转录因子活性。"
   },
@@ -397,7 +397,7 @@
     ],
     "officeChecked": "2026-09-15",
     "kindCode": "mixed",
-    "kindLabel": "综合 Dry + Wet",
+    "kindLabel": "综合",
     "kindSource": "https://www.aais.pku.edu.cn/info/1644/3821.htm",
     "kindNote": "官方论文列表含2025年语言模型辅助 mRNA 加帽酶发现、2023年多基因表达比例编程，以及进化理论工作。"
   },
@@ -440,7 +440,7 @@
     ],
     "officeChecked": "2026-09-15",
     "kindCode": "mixed",
-    "kindLabel": "综合 Dry + Wet",
+    "kindLabel": "综合",
     "kindSource": "https://www.oir.pku.edu.cn/cqb/info/1002/1830.htm",
     "kindNote": "2025年 GeoEvoBuilder 结合结构与进化信息改进功能蛋白设计，并以酶活、结构和动力学进行验证。"
   },
@@ -487,7 +487,7 @@
     ],
     "officeChecked": "2026-09-15",
     "kindCode": "dry",
-    "kindLabel": "干 Dry",
+    "kindLabel": "干",
     "kindSource": "https://cqb.pku.edu.cn/info/1002/1811.htm",
     "kindNote": "官网列2025年深度强化学习肽设计，以及2026年 MemConverter 蛋白定位重编程。"
   },
@@ -534,7 +534,7 @@
     ],
     "officeChecked": "2026-09-15",
     "kindCode": "dry",
-    "kindLabel": "干 Dry",
+    "kindLabel": "干",
     "kindSource": "https://cqb.pku.edu.cn/info/1002/2869.htm",
     "kindNote": "官网2025–2026论文直接覆盖 velocity-growth flow matching、动态非平衡最优传输、单细胞空间转移与轨迹重建。"
   },
@@ -581,7 +581,7 @@
     ],
     "officeChecked": "2026-09-15",
     "kindCode": "dry",
-    "kindLabel": "干 Dry",
+    "kindLabel": "干",
     "kindSource": "https://cqb.pku.edu.cn/info/1002/1802.htm",
     "kindNote": "2026年与汤超合作建模线虫发育的力学—信号耦合；已有网络适应与噪声抑制设计原则研究。"
   },
@@ -630,7 +630,7 @@
     ],
     "officeChecked": "2026-09-15",
     "kindCode": "mixed",
-    "kindLabel": "综合 Dry + Wet",
+    "kindLabel": "综合",
     "kindSource": "https://cqb.pku.edu.cn/info/1002/1831.htm",
     "kindNote": "经典工作研究能实现适应功能的网络拓扑；2026年与张磊联合实验和模型研究线虫胚胎发育。"
   },
@@ -677,7 +677,7 @@
     ],
     "officeChecked": "2026-09-15",
     "kindCode": "mixed",
-    "kindLabel": "综合 Dry + Wet",
+    "kindLabel": "综合",
     "kindSource": "https://cqb.pku.edu.cn/info/1002/1820.htm",
     "kindNote": "官方列表含2022年合成振荡回路独立调节振幅与周期，以及2021年微流控支持合成基因线路的综述。"
   },
@@ -724,7 +724,7 @@
     ],
     "officeChecked": "2026-09-15",
     "kindCode": "mixed",
-    "kindLabel": "综合 Dry + Wet",
+    "kindLabel": "综合",
     "kindSource": "https://www.phy.pku.edu.cn/info/1009/4876.htm",
     "kindNote": "官网描述图灵斑图、果蝇体节极性网络、合成生物开关；也是合成振荡器研究合作者。"
   },
@@ -771,7 +771,7 @@
     ],
     "officeChecked": "2026-09-15",
     "kindCode": "dry",
-    "kindLabel": "干 Dry",
+    "kindLabel": "干",
     "kindSource": "https://cqb.pku.edu.cn/info/1002/2541.htm",
     "kindNote": "官方研究兴趣直接包含 GRN 反演、果蝇与线虫早期胚胎形态和命运；方法背景为机器学习与软物质物理。"
   },
@@ -818,7 +818,7 @@
     ],
     "officeChecked": "2026-09-15",
     "kindCode": "dry",
-    "kindLabel": "干 Dry",
+    "kindLabel": "干",
     "kindSource": "https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/l_20180628175159671361/69933.htm",
     "kindNote": "本人主页列 RNA velocity 数学理论、细胞分化能量景观；与周沛劼有持续合作。"
   },
@@ -866,7 +866,7 @@
     "kindNote": "动力学建模与定量细胞／基因调控实验结合。",
     "kindSource": "https://faculty.pku.edu.cn/lifangting/zh_CN/index/7808/list/index.htm",
     "kindCode": "mixed",
-    "kindLabel": "综合 Dry + Wet"
+    "kindLabel": "综合"
   },
   {
     "id": "lin-jie",
@@ -911,7 +911,7 @@
     ],
     "officeChecked": "2026-09-15",
     "kindCode": "dry",
-    "kindLabel": "干 Dry",
+    "kindLabel": "干",
     "kindSource": "https://cqb.pku.edu.cn/info/1002/1816.htm",
     "kindNote": "本人研究说明强调能产生可检验预测的数学模型；2024年研究凝聚体弹性与转录爆发。"
   },
@@ -954,7 +954,7 @@
     ],
     "officeChecked": "2026-09-15",
     "kindCode": "mixed",
-    "kindLabel": "综合 Dry + Wet",
+    "kindLabel": "综合",
     "kindSource": "https://cqb.pku.edu.cn/info/1002/1813.htm",
     "kindNote": "2025年 Structure 论文直接用数据驱动质量守恒反应扩散系统建模凝聚体，并有 DNA—蛋白共凝聚实验体系。"
   },
@@ -988,7 +988,7 @@
     "scholarStatus": "个人主页待核实",
     "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Wensheng+Wei+Peking+University&hl=en",
     "kindCode": "wet",
-    "kindLabel": "湿 Wet",
+    "kindLabel": "湿",
     "kindSource": "https://www.aais.pku.edu.cn/info/1434/2816.htm",
     "kindNote": "2025年单碱基精度肿瘤免疫调控变异筛选；实验室长期开发 RNA 编辑与功能基因组平台。"
   },
@@ -1031,7 +1031,7 @@
     ],
     "officeChecked": "2026-09-15",
     "kindCode": "mixed",
-    "kindLabel": "综合 Dry + Wet",
+    "kindLabel": "综合",
     "kindSource": "https://cqb.pku.edu.cn/info/1002/1825.htm",
     "kindNote": "2026年7月官方招聘明确非编码 RNA、表观修饰和 AI 在衰老/发育中的研究，结合实验与时空轨迹分析。"
   },
@@ -1065,7 +1065,7 @@
     "scholarStatus": "已核对主页",
     "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Xuhang+%28Hang%29+Li+Peking+University&hl=en",
     "kindCode": "mixed",
-    "kindLabel": "综合 Dry + Wet",
+    "kindLabel": "综合",
     "kindSource": "https://web.bio.pku.edu.cn/homes/Index/news_cont_jl/16/1157.html",
     "kindNote": "学院主页确认2026年1月入职，明确结合 AI 蛋白设计开发体内代谢操纵方法，研究生命体系统层面的代谢。"
   },
@@ -1108,7 +1108,7 @@
     ],
     "officeChecked": "2026-09-15",
     "kindCode": "dry",
-    "kindLabel": "干 Dry",
+    "kindLabel": "干",
     "kindSource": "https://www.chem.pku.edu.cn/ktz2/wlhxktzz/1402.htm",
     "kindNote": "2025年 MolEdit 将物理信息和偏好对齐用于分子生成；长期研究分子模拟和增强采样。"
   }
