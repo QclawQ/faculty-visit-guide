@@ -195,6 +195,60 @@
     "scholarSearch": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Jianyang%20Zeng%20Westlake%20University&hl=en"
   },
   {
+    "id": "guo-tiannan",
+    "name": "郭天南",
+    "en": "Tiannan Guo",
+    "unit": "医学院／生命科学学院 · 教授；蛋白质组复杂科学实验室",
+    "fields": "蛋白质组学；空间／扰动蛋白组；AI 虚拟细胞；质谱与肽测序",
+    "fit": "对蛋白组学、细胞扰动预测与干湿闭环的匹配较高；可讨论 GFlowNet 在多样化候选采样或实验选择中的价值。对现有系统发育项目主要是扩展合作。",
+    "kindCode": "mixed",
+    "mode": "干湿结合：质谱与空间／扰动蛋白组实验，结合 AI 建模和虚拟细胞。",
+    "kindNote": "实验室明确结合空间蛋白组、扰动蛋白组数据采集与 AI 模型，研究细胞过程。",
+    "kindSource": "https://guomics.com/",
+    "kindChecked": "2026-09-15",
+    "evidence": "研究细胞蛋白质的表达、空间分布及扰动后的变化，建立能够预测细胞反应的模型。2026 年 9 月 Nature 发表其团队的扰动蛋白组虚拟细胞工作。",
+    "paper": "An operational perturbation proteomics-based virtual cell model · Nature, 2026-09-09",
+    "paperUrl": "https://doi.org/10.1038/s41586-026-11001-9",
+    "ask": "能否结合扰动蛋白组与生成模型，提出可检验的细胞响应预测或实验选择任务，并通过后续实验验证？",
+    "limit": "de novo peptide sequencing 是从质谱推断肽序列，不等同于设计新蛋白；不能把蛋白组虚拟细胞工作直接视为系统发育验证。",
+    "official": "https://en.westlake.edu.cn/faculty/tiannan-guo.html",
+    "lab": "https://guomics.com/",
+    "email": "guotiannan@westlake.edu.cn",
+    "source": "https://en.westlake.edu.cn/faculty/tiannan-guo.html",
+    "address": "云栖校区 · 杭州市西湖区石龙山街18号；具体楼栋、房间待确认",
+    "campus": "云栖",
+    "officeStatus": "仅核实校区",
+    "officeChecked": "2026-09-15",
+    "officeNote": "2026 年官方实习项目表将郭老师项目列在云栖校区；医学院报道确认石龙山街18号为该校区地址，均未提供个人房间号。",
+    "officeSources": [
+      {
+        "label": "2026 官方项目校区",
+        "url": "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202601/P020260127350215618183.pdf"
+      },
+      {
+        "label": "医学院校区报道",
+        "url": "https://medicine.westlake.edu.cn/News/202511/t20251125_61620.shtml"
+      }
+    ],
+    "map": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%E5%B8%82%E8%A5%BF%E6%B9%96%E5%8C%BA%E7%9F%B3%E9%BE%99%E5%B1%B1%E8%A1%9718%E5%8F%B7%20%E8%A5%BF%E6%B9%96%E5%A4%A7%E5%AD%A6%E4%BA%91%E6%A0%96%E6%A0%A1%E5%8C%BA",
+    "action": "先邮件预约；确认具体楼栋、房间与访客登记。地图仅指向校区。",
+    "scholar": "https://scholar.google.com/citations?user=NIcuHjkAAAAJ",
+    "scholarChecked": "2026-09-15",
+    "scholarSource": "https://guomics.com/publication/",
+    "scholarEvidence": "用户提供的 Scholar 页面显示 Tiannan Guo、Westlake University 与已验证学校邮箱；实验室论文页也链接该主页。",
+    "researchSources": [
+      {
+        "label": "学校教师页",
+        "url": "https://en.westlake.edu.cn/faculty/tiannan-guo.html"
+      },
+      {
+        "label": "实验室论文列表",
+        "url": "https://guomics.com/publication/"
+      }
+    ],
+    "paperMetadata": "sources/guo-tiannan-crossref.json"
+  },
+  {
     "name": "张垲",
     "fields": "计算生物学；应用机器学习；单细胞表观基因组；调控网络；非编码变异；foundation models",
     "fit": "把 GFlowNet 转向 cis-regulatory sequence、非编码变异或调控元件设计，并建立实验合作接口",

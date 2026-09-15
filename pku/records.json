@@ -1031,5 +1031,53 @@
     "mode": "2025年 MolEdit 将物理信息和偏好对齐用于分子生成；长期研究分子模拟和增强采样。",
     "source": "https://www.chem.pku.edu.cn/ktz2/wlhxktzz/1402.htm",
     "action": "先邮件预约，并确认会面房间及进楼安排。"
+  },
+  {
+    "id": "liang-xitong",
+    "name": "梁希同",
+    "en": "Xitong Liang",
+    "unit": "生命科学学院助理教授／研究员 · 定量生物学中心；IDG/麦戈文脑科学研究所",
+    "fields": "头足类神经生物学；乌贼伪装与变色；章鱼运动控制；神经环路；昼夜节律",
+    "fit": "对序列生成／RNA 设计的直接匹配较低；若扩展到高维行为状态、神经动力学与条件生成，可交流可检验的状态转移模型。",
+    "kindCode": "mixed",
+    "mode": "干湿结合（神经实验主导）：动物行为、钙成像／电生理记录，结合机器学习与定量分析。",
+    "kindNote": "北大官网明确将机器学习行为分析与电生理、钙成像等神经活动记录结合。",
+    "kindSource": "https://www.aais.pku.edu.cn/info/1639/3722.htm",
+    "kindChecked": "2026-09-15",
+    "evidence": "核心问题是乌贼如何控制变色伪装、章鱼如何协调触手，以及这些神经机制如何演化；共同第一作者工作量化了乌贼伪装的动态模式匹配。",
+    "paper": "The dynamics of pattern matching in camouflaging cuttlefish · Nature, 2023",
+    "paperUrl": "https://doi.org/10.1038/s41586-023-06259-2",
+    "ask": "能否用条件生成或动力学模型描述伪装图案的状态分布与转移，再用神经记录检验机制，而不只追求视觉拟合？",
+    "limit": "公开主线是神经与行为，不是核酸／蛋白序列生成，也不是直接的系统发育推断；需要新的行为或神经数据与评价任务。",
+    "official": "https://www.aais.pku.edu.cn/info/1639/3722.htm",
+    "lab": "https://liangx.weebly.com/",
+    "email": "xitong.liang@pku.edu.cn",
+    "source": "https://www.aais.pku.edu.cn/info/1639/3722.htm",
+    "address": "北京大学吕志和楼 328 室",
+    "officeStatus": "办公室已核对",
+    "officeChecked": "2026-09-15",
+    "officeNote": "前沿交叉学科研究院教师页明确列为办公室；不是网页页脚的学院公共地址。到访前仍需预约。",
+    "officeSources": [
+      {
+        "label": "前沿交叉院教师页",
+        "url": "https://www.aais.pku.edu.cn/info/1639/3722.htm"
+      }
+    ],
+    "action": "先邮件预约，确认吕志和楼 328 室与进校、进楼安排。",
+    "scholar": "https://scholar.google.com/citations?user=EEPoe-YAAAAJ",
+    "scholarChecked": "2026-09-15",
+    "scholarSource": "https://www.bio.pku.edu.cn/en/index/index/by_speciality_detail/cid/71/id/6.html",
+    "scholarEvidence": "用户提供的 Scholar 页面显示 Xitong Liang、Peking University 与已验证学校邮箱，并链接该生命科学学院教师页。",
+    "researchSources": [
+      {
+        "label": "生命科学学院教师页",
+        "url": "https://www.bio.pku.edu.cn/en/index/index/by_speciality_detail/cid/71/id/6.html"
+      },
+      {
+        "label": "定量生物学中心教师页",
+        "url": "https://cqb.pku.edu.cn/cqben/info/1002/1923.htm"
+      }
+    ],
+    "paperMetadata": "sources/liang-xitong-crossref.json"
   }
 ]

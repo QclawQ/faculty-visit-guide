@@ -62,6 +62,10 @@ def load_schools(root=ROOT):
                     raise ValueError(f'{slug}/{row["id"]}: unsafe URL {url}')
             if row.get('email') and not re.fullmatch(r'[^\s<>@]+@[^\s<>@]+\.[^\s<>@]+', row['email']):
                 raise ValueError(f'{slug}/{row["id"]}: invalid email')
+            if row.get('paperMetadata'):
+                metadata = row['paperMetadata']
+                if not re.fullmatch(r'sources/[a-z0-9-]+\.json', metadata) or not (root / slug / metadata).is_file():
+                    raise ValueError(f'{slug}/{row["id"]}: invalid paper metadata path')
             if row.get('map') and row['officeStatus'] == '未核实个人办公室' and row.get('campus') == '待确认':
                 raise ValueError(f'{slug}/{row["id"]}: do not map an unknown location')
         schools.append(dict(config, slug=slug, rows=rows))
@@ -97,6 +101,8 @@ def card(row, rank):
     detail += paragraph('研究证据', row.get('evidence'))
     if row.get('paper'):
         detail += '<p><span class="detail-label">相关工作：</span>' + (link(row['paper'], row['paperUrl']) if row.get('paperUrl') else text(row['paper'])) + '</p>'
+    if row.get('paperMetadata'):
+        detail += '<p>' + link('论文元数据 · Crossref 原始核对记录', row['paperMetadata']) + '</p>'
     detail += paragraph('交流切入', row.get('ask'))
     detail += paragraph('匹配边界', row.get('limit'))
     detail += '<p><span class="detail-label">分类依据：</span>' + text(row['kindNote']) + ' ' + link('来源', row['kindSource']) + '</p>'

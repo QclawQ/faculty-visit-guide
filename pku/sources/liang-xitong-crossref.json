@@ -1,0 +1,132 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works?query.title=The%20dynamics%20of%20pattern%20matching%20in%20camouflaging%20cuttlefish&rows=1&select=DOI,title,author,published,container-title,URL",
+  "accessed": "2026-09-15",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 1282293,
+      "items": [
+        {
+          "DOI": "10.1038/s41586-023-06259-2",
+          "title": [
+            "The dynamics of pattern matching in camouflaging cuttlefish"
+          ],
+          "author": [
+            {
+              "given": "Theodosia",
+              "family": "Woo",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Xitong",
+              "family": "Liang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Dominic A.",
+              "family": "Evans",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Olivier",
+              "family": "Fernandez",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-4497-4603",
+              "authenticated-orcid": false,
+              "given": "Friedrich",
+              "family": "Kretschmer",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-6879-663X",
+              "authenticated-orcid": false,
+              "given": "Sam",
+              "family": "Reiter",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-2296-114X",
+              "authenticated-orcid": false,
+              "given": "Gilles",
+              "family": "Laurent",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                6,
+                28
+              ]
+            ]
+          },
+          "container-title": [
+            "Nature"
+          ],
+          "URL": "https://doi.org/10.1038/s41586-023-06259-2"
+        }
+      ],
+      "items-per-page": 1,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

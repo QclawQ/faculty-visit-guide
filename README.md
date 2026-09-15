@@ -4,10 +4,12 @@
 
 | 学校 | 在线阅读 | 数据目录 |
 | --- | --- | --- |
-| 西湖大学 · 15 位 | [西湖名单](https://qclawq.github.io/gfn-v-9f2c7a/westlake/) | [westlake/](westlake/) |
-| 北京大学 · 25 位 | [北大名单](https://qclawq.github.io/gfn-v-9f2c7a/pku/) | [pku/](pku/) |
+| 西湖大学 · 16 位 | [西湖名单](https://qclawq.github.io/gfn-v-9f2c7a/westlake/) | [westlake/](westlake/) |
+| 北京大学 · 26 位 | [北大名单](https://qclawq.github.io/gfn-v-9f2c7a/pku/) | [pku/](pku/) |
 
-旧首页现为学校目录，北大原链接不变。原西湖混合名单中的周沛劼归入北大，40 位老师不重复。Secret Gist 不再更新或作为入口；历史版本未删除。Markdown 仅用于仓库维护说明，不再提供另一套阅读版名单。
+旧首页现为学校目录，北大原链接不变。原西湖混合名单中的周沛劼归入北大，42 位老师不重复。Secret Gist 不再更新或作为入口；历史版本未删除。Markdown 仅用于仓库维护说明，不再提供另一套阅读版名单。
+
+2026-09-15 补充：郭天南（西湖第 7 位，蛋白组与虚拟细胞）、梁希同（北大第 26 位，神经与行为扩展）。两人的 Scholar 身份与官网已交叉核对，代表作通过 Crossref 核对；原始 JSON 与查询地址保存在各校 `sources/`，可从网页条目的“更多”下载。
 
 ## 文件结构
 

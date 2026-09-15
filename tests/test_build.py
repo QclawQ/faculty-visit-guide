@@ -35,13 +35,22 @@ class BuildTests(unittest.TestCase):
 
     def test_current_data_and_no_duplicate_people(self):
         schools = {s['slug']: s for s in self.schools}
-        self.assertGreaterEqual(len(schools['westlake']['rows']), 15)
-        self.assertGreaterEqual(len(schools['pku']['rows']), 25)
+        self.assertGreaterEqual(len(schools['westlake']['rows']), 16)
+        self.assertGreaterEqual(len(schools['pku']['rows']), 26)
         names = [r['name'] for r in schools['westlake']['rows']]
         for name in ['曹龙兴','曾坚阳','付向东','杨剑','柴继杰','施一公','张垲','孙仁','管坤良','原发杰']:
             self.assertIn(name, names)
         self.assertNotIn('周沛劼', names)
         self.assertIn('周沛劼', [r['name'] for r in schools['pku']['rows']])
+
+    def test_added_scholar_profiles_and_sources(self):
+        rows = {r['id']: r for s in self.schools for r in s['rows']}
+        self.assertIn('NIcuHjkAAAAJ', rows['guo-tiannan']['scholar'])
+        self.assertIn('EEPoe-YAAAAJ', rows['liang-xitong']['scholar'])
+        self.assertEqual(rows['guo-tiannan']['kindCode'], 'mixed')
+        self.assertEqual(rows['liang-xitong']['kindCode'], 'mixed')
+        self.assertIn('待确认', rows['guo-tiannan']['address'])
+        self.assertIn('328', rows['liang-xitong']['address'])
 
     def test_generated_pages_are_current_and_have_static_content(self):
         for path, html in build.outputs(self.schools).items():

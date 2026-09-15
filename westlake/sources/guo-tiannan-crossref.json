@@ -1,0 +1,1234 @@
+{
+  "database": "Crossref",
+  "endpoint": "https://api.crossref.org/works/10.1038%2Fs41586-026-11001-9",
+  "accessed": "2026-09-15",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            10
+          ]
+        ],
+        "date-time": "2026-09-10T06:15:05Z",
+        "timestamp": 1789020905941,
+        "version": "build-2803163510"
+      },
+      "reference-count": 61,
+      "publisher": "Springer Science and Business Media LLC",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                9
+              ]
+            ],
+            "date-time": "2026-09-09T00:00:00Z",
+            "timestamp": 1788912000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                9
+              ]
+            ],
+            "date-time": "2026-09-09T00:00:00Z",
+            "timestamp": 1788912000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Nature"
+      ],
+      "DOI": "10.1038/s41586-026-11001-9",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            9
+          ]
+        ],
+        "date-time": "2026-09-09T15:02:12Z",
+        "timestamp": 1788966132000
+      },
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "An operational perturbation proteomics-based virtual cell model"
+      ],
+      "prefix": "10.1038",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-8484-8089",
+          "authenticated-orcid": false,
+          "given": "Rui",
+          "family": "Sun",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Liujia",
+          "family": "Qian",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3261-4448",
+          "authenticated-orcid": false,
+          "given": "Yongge",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9234-1328",
+          "authenticated-orcid": false,
+          "given": "Tong",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0006-4901-3314",
+          "authenticated-orcid": false,
+          "given": "Honghan",
+          "family": "Cheng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xuedong",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xueya",
+          "family": "Zhou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yuecheng",
+          "family": "Zhan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Guangmei",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0005-4917-2967",
+          "authenticated-orcid": false,
+          "given": "Zhengchao",
+          "family": "Luo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kunpeng",
+          "family": "Ma",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chunlong",
+          "family": "Wu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dongchen",
+          "family": "Ji",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7311-6221",
+          "authenticated-orcid": false,
+          "given": "Zhangzhi",
+          "family": "Xue",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hongxue",
+          "family": "Meng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yuhang",
+          "family": "Xiang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0006-0194-0952",
+          "authenticated-orcid": false,
+          "given": "Dingwei",
+          "family": "Lei",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Qianhe",
+          "family": "Zhou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wenbin",
+          "family": "Hu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yuhan",
+          "family": "Deng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lingling",
+          "family": "Tan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Qi",
+          "family": "Xiao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0002-9353-015X",
+          "authenticated-orcid": false,
+          "given": "Zhiwei",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lei",
+          "family": "Zeng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Liqin",
+          "family": "Qian",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xuan",
+          "family": "Zheng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Qiong",
+          "family": "Hu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nianzi",
+          "family": "Luo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Weinan",
+          "family": "E",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4585-2923",
+          "authenticated-orcid": false,
+          "given": "Peijie",
+          "family": "Zhou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4680-4218",
+          "authenticated-orcid": false,
+          "given": "Han",
+          "family": "Wen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0429-0802",
+          "authenticated-orcid": false,
+          "given": "Yi",
+          "family": "Zhu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3869-7651",
+          "authenticated-orcid": false,
+          "given": "Tiannan",
+          "family": "Guo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            9
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "11001_CR1",
+          "doi-asserted-by": "publisher",
+          "first-page": "7045",
+          "DOI": "10.1016/j.cell.2024.11.015",
+          "volume": "187",
+          "author": "C Bunne",
+          "year": "2024",
+          "unstructured": "Bunne, C. et al. How to build the virtual cell with artificial intelligence: priorities and opportunities. Cell 187, 7045–7063 (2024).",
+          "journal-title": "Cell"
+        },
+        {
+          "key": "11001_CR2",
+          "doi-asserted-by": "publisher",
+          "first-page": "319",
+          "DOI": "10.1038/s41422-025-01101-y",
+          "volume": "35",
+          "author": "L Qian",
+          "year": "2025",
+          "unstructured": "Qian, L., Dong, Z. & Guo, T. Grow AI virtual cells: three data pillars and closed-loop learning. Cell Res. 35, 319–321 (2025).",
+          "journal-title": "Cell Res."
+        },
+        {
+          "key": "11001_CR3",
+          "doi-asserted-by": "publisher",
+          "first-page": "623",
+          "DOI": "10.1038/s41586-025-08710-y",
+          "volume": "640",
+          "author": "H Cui",
+          "year": "2025",
+          "unstructured": "Cui, H. et al. Towards multimodal foundation models in molecular cell biology. Nature 640, 623–633 (2025).",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "11001_CR4",
+          "doi-asserted-by": "publisher",
+          "first-page": "616",
+          "DOI": "10.1038/s41586-023-06139-9",
+          "volume": "618",
+          "author": "CV Theodoris",
+          "year": "2023",
+          "unstructured": "Theodoris, C. V. et al. Transfer learning enables predictions in network biology. Nature 618, 616–624 (2023).",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "11001_CR5",
+          "doi-asserted-by": "publisher",
+          "first-page": "1481",
+          "DOI": "10.1038/s41592-024-02305-7",
+          "volume": "21",
+          "author": "M Hao",
+          "year": "2024",
+          "unstructured": "Hao, M. et al. Large-scale foundation model on single-cell transcriptomics. Nat. Methods 21, 1481–1491 (2024).",
+          "journal-title": "Nat. Methods"
+        },
+        {
+          "key": "11001_CR6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rosen, Y. R. et al. Universal cell embeddings: a foundation model for cell biology. Nature 656, 183–191 (2026).",
+          "DOI": "10.1038/s41586-026-10689-z"
+        },
+        {
+          "key": "11001_CR7",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Abhinav K. et al. Predicting cellular responses to perturbation across diverse contexts with state. Preprint at bioRxiv https://doi.org/10.1101/2025.06.26.661135 (2025).",
+          "DOI": "10.1101/2025.06.26.661135"
+        },
+        {
+          "key": "11001_CR8",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Dong, M. et al. Stack: in-context learning of single-cell biology. Preprint at bioRxiv https://doi.org/10.64898/2026.01.09.698608 (2026).",
+          "DOI": "10.64898/2026.01.09.698608"
+        },
+        {
+          "key": "11001_CR9",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Wang, C. et al. X-Cell: scaling causal perturbation prediction across diverse cellular contexts via diffusion language models. Preprint at bioRxiv https://doi.org/10.64898/2026.03.18.712807 (2026).",
+          "DOI": "10.64898/2026.03.18.712807"
+        },
+        {
+          "key": "11001_CR10",
+          "doi-asserted-by": "publisher",
+          "first-page": "1759",
+          "DOI": "10.1038/s41592-023-01969-x",
+          "volume": "20",
+          "author": "C Bunne",
+          "year": "2023",
+          "unstructured": "Bunne, C. et al. Learning single-cell perturbation responses using neural optimal transport. Nat. Methods 20, 1759–1768 (2023).",
+          "journal-title": "Nat. Methods"
+        },
+        {
+          "key": "11001_CR11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-23518-w",
+          "volume": "12",
+          "author": "GHT Yeo",
+          "year": "2021",
+          "unstructured": "Yeo, G. H. T., Saksena, S. D. & Gifford, D. K. Generative modeling of single-cell time series with PRESCIENT enables prediction of cell trajectories with interventions. Nat. Commun. 12, 3222 (2021).",
+          "journal-title": "Nat. Commun."
+        },
+        {
+          "key": "11001_CR12",
+          "first-page": "9526",
+          "volume": "119",
+          "author": "A Tong",
+          "year": "2020",
+          "unstructured": "Tong, A., Huang, J., Wolf, G., van Dijk, D. & Krishnaswamy, S. TrajectoryNet: a dynamic optimal transport network for modeling cellular dynamics. Proc. Mach. Learn. Res. 119, 9526–9536 (2020).",
+          "journal-title": "Proc. Mach. Learn. Res."
+        },
+        {
+          "key": "11001_CR13",
+          "unstructured": "Zhang, Z., Li, T. & Zhou, P. Learning stochastic dynamics from snapshots through regularized unbalanced optimal transport. In International Conference on Learning Representations (ICLR, 2025)."
+        },
+        {
+          "key": "11001_CR14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41540-025-00624-9",
+          "volume": "12",
+          "author": "Z Zhang",
+          "year": "2026",
+          "unstructured": "Zhang, Z. et al. Deciphering cell-fate trajectories using spatiotemporal single-cell transcriptomic data. npj Syst. Biol. Appl. 12, 2 (2026).",
+          "journal-title": "npj Syst. Biol. Appl."
+        },
+        {
+          "key": "11001_CR15",
+          "doi-asserted-by": "publisher",
+          "first-page": "1443",
+          "DOI": "10.1038/s42256-024-00949-w",
+          "volume": "6",
+          "author": "R Boiarsky",
+          "year": "2024",
+          "unstructured": "Boiarsky, R. et al. Deeper evaluation of a single-cell foundation model. Nat. Mach. Intell. 6, 1443–1446 (2024).",
+          "journal-title": "Nat. Mach. Intell."
+        },
+        {
+          "key": "11001_CR16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-025-03574-x",
+          "volume": "26",
+          "author": "KZ Kedzierska",
+          "year": "2025",
+          "unstructured": "Kedzierska, K. Z., Crawford, L., Amini, A. P. & Lu, A. X. Zero-shot evaluation reveals limitations of single-cell foundation models. Genome Biol. 26, 101 (2025).",
+          "journal-title": "Genome Biol."
+        },
+        {
+          "key": "11001_CR17",
+          "doi-asserted-by": "publisher",
+          "first-page": "1657",
+          "DOI": "10.1038/s41592-025-02772-6",
+          "volume": "22",
+          "author": "C Ahlmann-Eltze",
+          "year": "2025",
+          "unstructured": "Ahlmann-Eltze, C., Huber, W. & Anders, S. Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines. Nat. Methods 22, 1657–1661 (2025).",
+          "journal-title": "Nat. Methods"
+        },
+        {
+          "key": "11001_CR18",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Gillet, L. et al. Targeted data extraction of the MS/MS spectra generated by data-independent acquisition: a new concept for consistent and accurate proteome analysis. Mol. Cell. Proteomics 11, O111.016717 https://doi.org/10.1074/mcp.O111.016717 (2012).",
+          "DOI": "10.1074/mcp.O111.016717"
+        },
+        {
+          "key": "11001_CR19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.xgen.2024.100691",
+          "volume": "4",
+          "author": "L Qian",
+          "year": "2024",
+          "unstructured": "Qian, L. et al. AI-empowered perturbation proteomics for complex biological systems. Cell Genom. 4, 100691 (2024).",
+          "journal-title": "Cell Genom."
+        },
+        {
+          "key": "11001_CR20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.addr.2021.113844",
+          "volume": "176",
+          "author": "Q Xiao",
+          "year": "2021",
+          "unstructured": "Xiao, Q. et al. High-throughput proteomics and AI for cancer biomarker discovery. Adv. Drug Deliv. Rev. 176, 113844 (2021).",
+          "journal-title": "Adv. Drug Deliv. Rev."
+        },
+        {
+          "key": "11001_CR21",
+          "doi-asserted-by": "publisher",
+          "first-page": "901",
+          "DOI": "10.1038/s41586-025-08584-0",
+          "volume": "638",
+          "author": "T Guo",
+          "year": "2025",
+          "unstructured": "Guo, T., Steen, J. A. & Mann, M. Mass-spectrometry-based proteomics: from single cells to clinical applications. Nature 638, 901–911 (2025).",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "11001_CR22",
+          "unstructured": "Chen, R. T., Rubanova, Y., Bettencourt, J. & Duvenaud, D. K. Neural ordinary differential equations. In Proc. 32nd International Conference on Neural Information Processing Systems (eds Bengio, S. et al.) 6571–6583 (Curran Associates, 2018)."
+        },
+        {
+          "key": "11001_CR23",
+          "first-page": "1",
+          "volume": "5",
+          "author": "E Weinan",
+          "year": "2017",
+          "unstructured": "Weinan, E. A proposal on machine learning via dynamical systems. Comm. Math. Stat. 5, 1–11 (2017).",
+          "journal-title": "Comm. Math. Stat."
+        },
+        {
+          "key": "11001_CR24",
+          "doi-asserted-by": "publisher",
+          "first-page": "166",
+          "DOI": "10.1038/s41586-022-04437-2",
+          "volume": "603",
+          "author": "P Jaaks",
+          "year": "2022",
+          "unstructured": "Jaaks, P. et al. Effective drug combinations in breast, colon and pancreatic cancer cells. Nature 603, 166–173 (2022).",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "11001_CR25",
+          "doi-asserted-by": "publisher",
+          "first-page": "1929",
+          "DOI": "10.1126/science.1132939",
+          "volume": "313",
+          "author": "J Lamb",
+          "year": "2006",
+          "unstructured": "Lamb, J. et al. The Connectivity Map: using gene-expression signatures to connect small molecules, genes, and disease. Science 313, 1929–1935 (2006).",
+          "journal-title": "Science"
+        },
+        {
+          "key": "11001_CR26",
+          "doi-asserted-by": "publisher",
+          "first-page": "1437",
+          "DOI": "10.1016/j.cell.2017.10.049",
+          "volume": "171",
+          "author": "A Subramanian",
+          "year": "2017",
+          "unstructured": "Subramanian, A. et al. A next generation connectivity map: L1000 platform and the first 1,000,000 profiles Cell 171, 1437–1452 (2017).",
+          "journal-title": "Cell"
+        },
+        {
+          "key": "11001_CR27",
+          "doi-asserted-by": "publisher",
+          "first-page": "3402",
+          "DOI": "10.1002/jcp.29230",
+          "volume": "235",
+          "author": "X Li",
+          "year": "2020",
+          "unstructured": "Li, X. et al. LncRNA NEAT1 promotes autophagy via regulating miR-204/ATG3 and enhanced cell resistance to sorafenib in hepatocellular carcinoma. J. Cell. Physiol. 235, 3402–3413 (2020).",
+          "journal-title": "J. Cell. Physiol."
+        },
+        {
+          "key": "11001_CR28",
+          "doi-asserted-by": "publisher",
+          "first-page": "227",
+          "DOI": "10.1186/s13046-019-1222-z",
+          "volume": "38",
+          "author": "J Hu",
+          "year": "2019",
+          "unstructured": "Hu, J. et al. BTF3 sustains cancer stem-like phenotype of prostate cancer via stabilization of BMI1. J. Exp. Clin. Cancer Res. 38, 227 (2019).",
+          "journal-title": "J. Exp. Clin. Cancer Res."
+        },
+        {
+          "key": "11001_CR29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1155/2018/5416923",
+          "volume": "2018",
+          "author": "LTH Phi",
+          "year": "2018",
+          "unstructured": "Phi, L. T. H. et al. Cancer stem cells (CSCs) in drug resistance and their therapeutic implications in cancer treatment. Stem Cells Int. 2018, 5416923 (2018).",
+          "journal-title": "Stem Cells Int."
+        },
+        {
+          "key": "11001_CR30",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.21037/tlcr.2020.01.05",
+          "volume": "9",
+          "author": "J De Greve",
+          "year": "2020",
+          "unstructured": "De Greve, J. & Giron, P. Targeting the tyrosine kinase inhibitor-resistant mutant EGFR pathway in lung cancer without targeting EGFR? Transl. Lung Cancer Res. 9, 1–3 (2020).",
+          "journal-title": "Transl. Lung Cancer Res."
+        },
+        {
+          "key": "11001_CR31",
+          "doi-asserted-by": "publisher",
+          "first-page": "3277",
+          "DOI": "10.1016/j.celrep.2018.02.077",
+          "volume": "22",
+          "author": "L Liu",
+          "year": "2018",
+          "unstructured": "Liu, L. et al. The LIS1/NDE1 complex is essential for FGF signaling by regulating FGF receptor intracellular trafficking. Cell Rep. 22, 3277–3291 (2018).",
+          "journal-title": "Cell Rep."
+        },
+        {
+          "key": "11001_CR32",
+          "doi-asserted-by": "publisher",
+          "first-page": "e370",
+          "DOI": "10.1097/CAD.0000000000001215",
+          "volume": "33",
+          "author": "GB Park",
+          "year": "2022",
+          "unstructured": "Park, G. B., Jeong, J. Y., Choi, S., Yoon, Y. S. & Kim, D. Glucose deprivation enhances resistance to paclitaxel via ELAVL2/4-mediated modification of glycolysis in ovarian cancer cells. Anticancer Drugs 33, e370–e380 (2022).",
+          "journal-title": "Anticancer Drugs"
+        },
+        {
+          "key": "11001_CR33",
+          "doi-asserted-by": "publisher",
+          "first-page": "687",
+          "DOI": "10.1080/15384101.2025.2586117",
+          "volume": "24",
+          "author": "T Yang",
+          "year": "2025",
+          "unstructured": "Yang, T. et al. CKS2 promotes the malignant phenotypes of bladder cancer cells via PI3K/AKT signaling pathway activation. Cell Cycle 24, 687–701 (2025).",
+          "journal-title": "Cell Cycle"
+        },
+        {
+          "key": "11001_CR34",
+          "doi-asserted-by": "publisher",
+          "first-page": "830",
+          "DOI": "10.1038/s41422-024-01034-y",
+          "volume": "34",
+          "author": "X Yang",
+          "year": "2024",
+          "unstructured": "Yang, X. et al. GeneCompass: deciphering universal gene regulatory mechanisms with a knowledge-informed cross-species foundation model. Cell Res. 34, 830–845 (2024).",
+          "journal-title": "Cell Res."
+        },
+        {
+          "key": "11001_CR35",
+          "doi-asserted-by": "publisher",
+          "first-page": "1538",
+          "DOI": "10.1093/bioinformatics/btx806",
+          "volume": "34",
+          "author": "K Preuer",
+          "year": "2018",
+          "unstructured": "Preuer, K. et al. DeepSynergy: predicting anti-cancer drug synergy with deep learning. Bioinformatics 34, 1538–1546 (2018).",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "11001_CR36",
+          "doi-asserted-by": "publisher",
+          "first-page": "599",
+          "DOI": "10.1200/JCO.22.00628",
+          "volume": "41",
+          "author": "PA Konstantinopoulos",
+          "year": "2023",
+          "unstructured": "Konstantinopoulos, P. A. et al. A phase II, two-stage study of letrozole and abemaciclib in estrogen receptor-positive recurrent endometrial cancer. J. Clin. Oncol. 41, 599–608 (2023).",
+          "journal-title": "J. Clin. Oncol."
+        },
+        {
+          "key": "11001_CR37",
+          "doi-asserted-by": "publisher",
+          "first-page": "4154",
+          "DOI": "10.1200/JCO.23.00402",
+          "volume": "41",
+          "author": "M Ingham",
+          "year": "2023",
+          "unstructured": "Ingham, M. et al. Phase II study of olaparib and temozolomide for advanced uterine leiomyosarcoma (NCI Protocol 10250). J. Clin. Oncol. 41, 4154–4163 (2023).",
+          "journal-title": "J. Clin. Oncol."
+        },
+        {
+          "key": "11001_CR38",
+          "doi-asserted-by": "publisher",
+          "first-page": "1372",
+          "DOI": "10.1158/2159-8290.CD-19-0582",
+          "volume": "9",
+          "author": "AF Farago",
+          "year": "2019",
+          "unstructured": "Farago, A. F. et al. Combination olaparib and temozolomide in relapsed small-cell lung cancer. Cancer Discov. 9, 1372–1387 (2019).",
+          "journal-title": "Cancer Discov."
+        },
+        {
+          "key": "11001_CR39",
+          "doi-asserted-by": "publisher",
+          "first-page": "260",
+          "DOI": "10.1016/j.cell.2016.08.041",
+          "volume": "167",
+          "author": "A Bruna",
+          "year": "2016",
+          "unstructured": "Bruna, A. et al. A biobank of breast cancer explants with preserved intra-tumor heterogeneity to screen anticancer compounds. Cell 167, 260–274 (2016).",
+          "journal-title": "Cell"
+        },
+        {
+          "key": "11001_CR40",
+          "doi-asserted-by": "publisher",
+          "first-page": "1318",
+          "DOI": "10.1038/nm.3954",
+          "volume": "21",
+          "author": "H Gao",
+          "year": "2015",
+          "unstructured": "Gao, H. et al. High-throughput screening using patient-derived tumor xenografts to predict clinical trial drug response. Nat. Med. 21, 1318–1325 (2015).",
+          "journal-title": "Nat. Med."
+        },
+        {
+          "key": "11001_CR41",
+          "doi-asserted-by": "publisher",
+          "first-page": "99",
+          "DOI": "10.1186/s13045-020-00926-x",
+          "volume": "13",
+          "author": "J Wang",
+          "year": "2020",
+          "unstructured": "Wang, J. et al. CDK7 inhibitor THZ1 enhances antiPD-1 therapy efficacy via the p38alpha/MYC/PD-L1 signaling in non-small cell lung cancer. J. Hematol. Oncol. 13, 99 (2020).",
+          "journal-title": "J. Hematol. Oncol."
+        },
+        {
+          "key": "11001_CR42",
+          "doi-asserted-by": "publisher",
+          "first-page": "589",
+          "DOI": "10.3892/or.2016.4811",
+          "volume": "36",
+          "author": "Z Wang",
+          "year": "2016",
+          "unstructured": "Wang, Z. et al. HDAC6 promotes cell proliferation and confers resistance to gefitinib in lung adenocarcinoma. Oncol. Rep. 36, 589–597 (2016).",
+          "journal-title": "Oncol. Rep."
+        },
+        {
+          "key": "11001_CR43",
+          "doi-asserted-by": "publisher",
+          "first-page": "93",
+          "DOI": "10.1126/science.ade3925",
+          "volume": "380",
+          "author": "J Zecha",
+          "year": "2023",
+          "unstructured": "Zecha, J. et al. Decrypting drug actions and protein modifications by dose- and time-resolved proteomics. Science 380, 93–101 (2023).",
+          "journal-title": "Science"
+        },
+        {
+          "key": "11001_CR44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Eckert, S. et al. Decrypting the molecular basis of cellular drug phenotypes by dose-resolved expression proteomics. Nat. Biotechnol. 43, 406–415 (2025).",
+          "DOI": "10.1038/s41587-024-02218-y"
+        },
+        {
+          "key": "11001_CR45",
+          "doi-asserted-by": "publisher",
+          "first-page": "1111",
+          "DOI": "10.1038/s41589-020-0572-3",
+          "volume": "16",
+          "author": "B Ruprecht",
+          "year": "2020",
+          "unstructured": "Ruprecht, B. et al. A mass spectrometry-based proteome map of drug action in lung cancer cell lines. Nat. Chem. Biol. 16, 1111–1119 (2020).",
+          "journal-title": "Nat. Chem. Biol."
+        },
+        {
+          "key": "11001_CR46",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Dibaeinia, P. et al. Virtual cells need context, not just scale. Preprint at bioRxiv https://doi.org/10.64898/2026.02.04.703804 (2026).",
+          "DOI": "10.64898/2026.02.04.703804"
+        },
+        {
+          "key": "11001_CR47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-025-58866-4",
+          "volume": "16",
+          "author": "Z Liu",
+          "year": "2025",
+          "unstructured": "Liu, Z. et al. DIA-BERT: pre-trained end-to-end transformer models for enhanced DIA proteomics data analysis. Nat. Commun. 16, 3530 (2025).",
+          "journal-title": "Nat. Commun."
+        },
+        {
+          "key": "11001_CR48",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wallmann, G. et al. AlphaDIA enables DIA transfer learning for feature-free proteomics. Nat. Biotechnol. 44, 1168–1177 (2026).",
+          "DOI": "10.1038/s41587-025-02791-w"
+        },
+        {
+          "key": "11001_CR49",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Tang, X. et al. CellForge: agentic design of virtual cell models. Preprint at https://doi.org/10.48550/arXiv.2508.02276 (2025).",
+          "DOI": "10.48550/arXiv.2508.02276"
+        },
+        {
+          "key": "11001_CR50",
+          "doi-asserted-by": "publisher",
+          "first-page": "845",
+          "DOI": "10.1038/s41587-022-01539-0",
+          "volume": "41",
+          "author": "DC Mitchell",
+          "year": "2023",
+          "unstructured": "Mitchell, D. C. et al. A proteome-wide atlas of drug mechanism of action. Nat. Biotechnol. 41, 845–857 (2023).",
+          "journal-title": "Nat. Biotechnol."
+        },
+        {
+          "key": "11001_CR51",
+          "doi-asserted-by": "publisher",
+          "first-page": "2307",
+          "DOI": "10.1038/s41596-022-00727-1",
+          "volume": "17",
+          "author": "X Cai",
+          "year": "2022",
+          "unstructured": "Cai, X. et al. High-throughput proteomic sample preparation using pressure cycling technology. Nat. Protoc. 17, 2307–2325 (2022).",
+          "journal-title": "Nat. Protoc."
+        },
+        {
+          "key": "11001_CR52",
+          "doi-asserted-by": "publisher",
+          "first-page": "2732",
+          "DOI": "10.1021/acs.jproteome.9b00671",
+          "volume": "19",
+          "author": "R Sun",
+          "year": "2020",
+          "unstructured": "Sun, R. et al. Accelerated protein biomarker discovery from FFPE tissue samples using single-shot, short gradient microflow SWATH MS. J. Proteome Res. 19, 2732–2741 (2020).",
+          "journal-title": "J. Proteome Res."
+        },
+        {
+          "key": "11001_CR53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pmic.202100147",
+          "volume": "22",
+          "author": "R Sun",
+          "year": "2022",
+          "unstructured": "Sun, R. et al. A prostate cancer tissue specific spectral library for targeted proteomic analysis. Proteomics 22, e2100147 (2022).",
+          "journal-title": "Proteomics"
+        },
+        {
+          "key": "11001_CR54",
+          "doi-asserted-by": "publisher",
+          "first-page": "41",
+          "DOI": "10.1038/s41592-019-0638-x",
+          "volume": "17",
+          "author": "V Demichev",
+          "year": "2020",
+          "unstructured": "Demichev, V., Messner, C. B., Vernardis, S. I., Lilley, K. S. & Ralser, M. DIA-NN: neural networks and interference correction enable deep proteome coverage in high throughput. Nat. Methods 17, 41–44 (2020).",
+          "journal-title": "Nat. Methods"
+        },
+        {
+          "key": "11001_CR55",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhong, Q. et al. Proteomic-based stratification of intermediate-risk prostate cancer patients. Life Sci. Alliance 7, e202302146 (2024).",
+          "DOI": "10.26508/lsa.202302146"
+        },
+        {
+          "key": "11001_CR56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.mcpro.2023.100602",
+          "volume": "22",
+          "author": "R Sun",
+          "year": "2023",
+          "unstructured": "Sun, R. et al. Proteomic dynamics of breast cancer cell lines identifies potential therapeutic protein targets. Mol. Cell Proteomics 22, 100602 (2023).",
+          "journal-title": "Mol. Cell Proteomics"
+        },
+        {
+          "key": "11001_CR57",
+          "doi-asserted-by": "publisher",
+          "first-page": "27",
+          "DOI": "10.1093/nar/28.1.27",
+          "volume": "28",
+          "author": "M Kanehisa",
+          "year": "2000",
+          "unstructured": "Kanehisa, M. & Goto, S. KEGG: Kyoto Encyclopedia of Genes and Genomes. Nucleic Acids Res. 28, 27–30 (2000).",
+          "journal-title": "Nucleic Acids Res."
+        },
+        {
+          "key": "11001_CR58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-09234-6",
+          "volume": "10",
+          "author": "Y Zhou",
+          "year": "2019",
+          "unstructured": "Zhou, Y. et al. Metascape provides a biologist-oriented resource for the analysis of systems-level datasets. Nat. Commun. 10, 1523 (2019).",
+          "journal-title": "Nat. Commun."
+        },
+        {
+          "key": "11001_CR59",
+          "doi-asserted-by": "publisher",
+          "first-page": "D638",
+          "DOI": "10.1093/nar/gkac1000",
+          "volume": "51",
+          "author": "D Szklarczyk",
+          "year": "2023",
+          "unstructured": "Szklarczyk, D. et al. The STRING database in 2023: protein–protein association networks and functional enrichment analyses for any sequenced genome of interest. Nucleic Acids Res. 51, D638–D646 (2023).",
+          "journal-title": "Nucleic Acids Res."
+        },
+        {
+          "key": "11001_CR60",
+          "doi-asserted-by": "publisher",
+          "first-page": "523",
+          "DOI": "10.1093/bioinformatics/btt703",
+          "volume": "30",
+          "author": "A Kramer",
+          "year": "2014",
+          "unstructured": "Kramer, A., Green, J., Pollard, J. Jr. & Tugendreich, S. Causal analysis approaches in ingenuity pathway analysis. Bioinformatics 30, 523–530 (2014).",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "11001_CR61",
+          "unstructured": "Lundberg, S. M. & Lee, S.-I. A unified approach to interpreting model predictions. In Proc. 31st International Conference on Neural Information Processing Systems (eds von Luxburg, U. et al.) 4768–4777 (Curran Associates Inc., 2017)."
+        }
+      ],
+      "container-title": [
+        "Nature"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.nature.com/articles/s41586-026-11001-9.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.nature.com/articles/s41586-026-11001-9",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.nature.com/articles/s41586-026-11001-9.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            9
+          ]
+        ],
+        "date-time": "2026-09-09T15:02:15Z",
+        "timestamp": 1788966135000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.nature.com/articles/s41586-026-11001-9"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            9
+          ]
+        ]
+      },
+      "references-count": 61,
+      "alternative-id": [
+        "11001"
+      ],
+      "URL": "https://doi.org/10.1038/s41586-026-11001-9",
+      "relation": {},
+      "ISSN": [
+        "0028-0836",
+        "1476-4687"
+      ],
+      "issn-type": [
+        {
+          "value": "0028-0836",
+          "type": "print"
+        },
+        {
+          "value": "1476-4687",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            9
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "17 August 2024",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "7 August 2026",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "9 September 2026",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "T.G. and Y. Zhu are shareholders of Westlake Omics Inc. L.T., Y. Zhan and W.H. are employees of Westlake Omics Inc. Y.L. is an employee of DP Technology Co., Ltd. H.W. is the founder of AiR (AI-in-RNA)-Bio Technology. The other authors declare no competing interests.",
+          "order": 1,
+          "name": "Ethics",
+          "label": "Competing interests",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Ethics"
+          }
+        }
+      ]
+    }
+  }
+}
