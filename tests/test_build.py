@@ -75,6 +75,12 @@ class BuildTests(unittest.TestCase):
                     target /= 'index.html'
                 self.assertTrue(target.is_file(), f'{path}: broken link {url}')
 
+    def test_project_name_and_repository_links(self):
+        for path, html in build.outputs(self.schools).items():
+            self.assertIn('导师拜访指南', html, path)
+            self.assertIn('https://github.com/QclawQ/faculty-visit-guide', Document(html).links, path)
+            self.assertNotIn('gfn-v-9f2c7a', html, path)
+
     def test_html_escapes_untrusted_values(self):
         row = copy.deepcopy(self.schools[0]['rows'][0])
         row['name'] = '<script>alert("x")</script>'

@@ -1,19 +1,26 @@
-# 教授名单 · 按学校整理
+# Faculty Visit Guide · 导师拜访指南
 
-手机直接打开：[学校目录](https://qclawq.github.io/gfn-v-9f2c7a/)。纯 HTML / CSS / JavaScript，无需登录或安装。
+按学校整理潜在导师与科研合作对象，方便手机查阅研究方向、联系方式和拜访地址。纯 HTML / CSS / JavaScript，无需登录或安装。
+
+- 在线入口：[导师拜访指南](https://qclawq.github.io/faculty-visit-guide/)
+- GitHub 仓库：[QclawQ/faculty-visit-guide](https://github.com/QclawQ/faculty-visit-guide)
+- 本地维护目录：`~/Developer/faculty-visit-guide`
 
 | 学校 | 在线阅读 | 数据目录 |
 | --- | --- | --- |
-| 西湖大学 · 16 位 | [西湖名单](https://qclawq.github.io/gfn-v-9f2c7a/westlake/) | [westlake/](westlake/) |
-| 北京大学 · 26 位 | [北大名单](https://qclawq.github.io/gfn-v-9f2c7a/pku/) | [pku/](pku/) |
+| 西湖大学 · 16 位 | [西湖名单](https://qclawq.github.io/faculty-visit-guide/westlake/) | [westlake/](westlake/) |
+| 北京大学 · 26 位 | [北大名单](https://qclawq.github.io/faculty-visit-guide/pku/) | [pku/](pku/) |
 
-旧首页现为学校目录，北大原链接不变。原西湖混合名单中的周沛劼归入北大，42 位老师不重复。Secret Gist 不再更新或作为入口；历史版本未删除。Markdown 仅用于仓库维护说明，不再提供另一套阅读版名单。
+2026-09-15：原仓库 `gfn-v-9f2c7a` 改名为 `faculty-visit-guide`，本地迁入 `Developer`。请更新手机收藏；GitHub 会重定向旧仓库链接，但不会自动重定向旧 GitHub Pages 网页地址（[官方说明](https://docs.github.com/en/repositories/creating-and-managing-repositories/renaming-a-repository)）。各学校子目录与老师条目锚点不变。
+
+原西湖混合名单中的周沛劼归入北大，42 位老师不重复。Secret Gist 不再更新或作为入口；历史版本未删除。Markdown 仅用于仓库维护说明，不再提供另一套阅读版名单。
 
 2026-09-15 补充：郭天南（西湖第 7 位，蛋白组与虚拟细胞）、梁希同（北大第 26 位，神经与行为扩展）。两人的 Scholar 身份与官网已交叉核对，代表作通过 Crossref 核对；原始 JSON 与查询地址保存在各校 `sources/`，可从网页条目的“更多”下载。
 
 ## 文件结构
 
 ```text
+AGENTS.md                # 本项目的维护范围与约定
 schools.json             # 学校 slug 和显示顺序
 index.html               # 生成的学校目录
 westlake/

@@ -8,7 +8,8 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parent.parent
-REPO = 'https://github.com/QclawQ/gfn-v-9f2c7a'
+REPO = 'https://github.com/QclawQ/faculty-visit-guide'
+SITE_NAME = '导师拜访指南'
 PREPRINT = 'https://doi.org/10.64898/2026.04.08.717239'
 KINDS = {'dry': ('干', '计算／理论为主'), 'wet': ('湿', '实验为主'), 'mixed': ('综合', '计算与实验结合')}
 REQUIRED = ('id', 'name', 'en', 'unit', 'fields', 'fit', 'kindCode', 'kindNote', 'kindSource', 'official', 'address', 'officeStatus')
@@ -168,7 +169,7 @@ def outputs(schools):
     result, school_links = {}, []
     for school in schools:
         slug, rows = school['slug'], school['rows']
-        body = f'''<header><h1>{text(school['name'])}教授名单</h1>
+        body = f'''<header><h1>{text(school['name'])} · {SITE_NAME}</h1>
 <p class="sub">{text(school['summary'])}</p>
 <p class="sub">干：计算／理论为主 · 湿：实验为主 · 综合：干湿结合</p>
 </header>
@@ -185,13 +186,13 @@ def outputs(schools):
 <p id="empty" class="empty" hidden>没有匹配结果，试试其他关键词或研究方式。</p>
 <p class="sub">名单更新：{text(school['updated'])}。{text(school.get('note', ''))}</p>
 <p class="sub"><a href="records.json" download>下载名单数据</a></p>'''
-        result[f'{slug}/index.html'] = page(school['name'] + '教授名单', body, schools, slug)
+        result[f'{slug}/index.html'] = page(school['name'] + ' · ' + SITE_NAME, body, schools, slug)
         school_links.append(f'''<li><a href="./{slug}/"><div class="school-heading"><h2>{text(school['name'])} →</h2><span class="school-count">{text(school['city'])} · {len(rows)} 位</span></div><p>{text(school['summary'])}</p></a></li>''')
     total = sum(len(school['rows']) for school in schools)
-    body = f'''<header><h1>教授名单</h1><p class="sub">按学校整理 · {len(schools)} 所学校 · {total} 位老师</p></header>
+    body = f'''<header><h1>{SITE_NAME}</h1><p class="sub">按学校整理 · {len(schools)} 所学校 · {total} 位老师</p></header>
 <ul class="school-list">{chr(10).join(school_links)}</ul>
 <p class="sub">选择学校查看。各校统一提供研究方向、干湿分类、公开联系方式与到访地址；详细依据可展开阅读。</p>'''
-    result['index.html'] = page('教授名单 · 学校目录', body, schools)
+    result['index.html'] = page(SITE_NAME + ' · 学校目录', body, schools)
     return result
 
 
